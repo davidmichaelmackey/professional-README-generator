@@ -10,7 +10,6 @@ A command-line application that uses input from a user to dynamically generate a
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Features](#features)
 - [Contribute](#contribute)
 - [Tests](#tests)
 - [Questions](#questions)
@@ -38,9 +37,10 @@ Follow these commands to run the command line application:
 
 ### Collaborators
 
-    Test1
-    Test2
-    Test3
+    Test 1
+    Test 2
+    Test 3
+    Test 4
 
 ### Resources
 
@@ -64,13 +64,10 @@ Follow these commands to run the command line application:
   <img src="https://img.shields.io/github/followers/davidmichaelmackey?style=for-the-badge" alt="Followers" />
 </p>
 
-<p align="center">## Toolset
-      <img src="https://img.shields.io/badge/-JS-grey?style=for-the-badge"  alt="JS" />
-      ## Toolset
+## Toolset
+    <p align="center"><img src="https://img.shields.io/badge/-JS-grey?style=for-the-badge"  alt="JS" />
       <img src="https://img.shields.io/badge/-NodeJS-grey?style=for-the-badge"  alt="NodeJS" />
-      ## Toolset
       <img src="https://img.shields.io/badge/-NPM-grey?style=for-the-badge"  alt="NPM" />
-      ## Toolset
       <img src="https://img.shields.io/badge/-Inquirer-grey?style=for-the-badge"  alt="Inquirer" />
       
 </p>

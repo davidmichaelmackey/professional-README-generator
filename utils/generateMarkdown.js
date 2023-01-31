@@ -15,7 +15,6 @@ ${data.description}
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Features](#features)
 - [Contribute](#contribute)
 - [Tests](#tests)
 - [Questions](#questions)
@@ -165,10 +164,10 @@ function resources(resources) {
 function toolset(tools) {
   if (tools) {
     tools = tools.split(", ");
-    let res = `<p align="center">`;
+    let res = `## Toolset
+    <p align="center">`;
     tools.forEach(tool => {
-      res += `## Toolset
-      <img src="https://img.shields.io/badge/-${tool}-grey?style=for-the-badge"  alt="${tool}" />
+      res += `<img src="https://img.shields.io/badge/-${tool}-grey?style=for-the-badge"  alt="${tool}" />
       `;
     });
     res += `
