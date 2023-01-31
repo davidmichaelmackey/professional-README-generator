@@ -3,7 +3,8 @@
 // !==========================================|
 
 function generateMarkdown(data) {
-  let readme = `# <${data.title}>
+  let readme = `
+# { ${data.title} }
 
 ## Description
 ${data.description}
@@ -48,7 +49,7 @@ ${license(data.license)}
   <img src="https://img.shields.io/github/package-json/dependency-version/${data.github}/${data.repository}/inquirer?style=for-the-badge" alt="Inquirer Version" />
   <img src="https://img.shields.io/github/last-commit/${data.github}/${data.repository}?style=for-the-badge" alt="Last Commit" />
   <img src="https://img.shields.io/github/issues/${data.github}/${data.repository}?style=for-the-badge" alt="Issues" />
-  <img src="https://img.shields.io/github/followers/${data.github}?style=social" alt="Followers" />
+  <img src="https://img.shields.io/github/followers/${data.github}?style=for-the-badge" alt="Followers" />
 </p>
 
 ${builtWith(data.toolset)}

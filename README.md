@@ -1,4 +1,5 @@
-# <Professional README Generator>
+
+# { Professional README Generator }
 
 ## Description
 A command-line application that uses input from a user to dynamically generate a quality README for a GitHub project.
@@ -57,7 +58,7 @@ A command-line application that uses input from a user to dynamically generate a
   <img src="https://img.shields.io/github/package-json/dependency-version/davidmichaelmackey/professional-readme-generator/inquirer?style=for-the-badge" alt="Inquirer Version" />
   <img src="https://img.shields.io/github/last-commit/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Last Commit" />
   <img src="https://img.shields.io/github/issues/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Issues" />
-  <img src="https://img.shields.io/github/followers/davidmichaelmackey?style=social" alt="Followers" />
+  <img src="https://img.shields.io/github/followers/davidmichaelmackey?style=for-the-badge" alt="Followers" />
 </p>
 
 <p align="center"><img src="https://img.shields.io/badge/-JS-lightgrey?style=for-the-badge"  alt="JS" />
