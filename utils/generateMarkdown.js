@@ -6,7 +6,6 @@ function generateMarkdown(data) {
   let readme = `# <${data.title}>
 
 ## Description
-
 ${data.description}
 
 ## Table of Contents
@@ -63,9 +62,9 @@ ${license(data.license)}
 
 ## Features
 
-- 
+${builtWith(data.toolset)}
 
-## How to Contribute
+## Contributors
 
 [Contributor Covenant](https://www.contributor-covenant.org/)
 
@@ -126,11 +125,9 @@ function resources(resources) {
 function builtWith(tools) {
   if (tools) {
     tools = tools.split(",");
-    let res = `
-  ### Built With
-  </br>
-  <p align="center">
-  `;
+    let res = `### Built With
+
+<p align="center">`;
 
     tools.forEach(tool => {
       res += `<img src="https://img.shields.io/badge/-${tool}-lightgrey?style=for-the-badge"  alt="${tool}" />
@@ -138,8 +135,7 @@ function builtWith(tools) {
     });
 
     res += `
-  </p>
-  `;
+</p>`;
 
     return res;
 
