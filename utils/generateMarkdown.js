@@ -11,10 +11,10 @@ function generateMarkdown(data) {
 <p align="center">
   <img src="https://img.shields.io/github/languages/count/${data.github}/${data.repository}?style=for-the-badge" alt="Languages" />
   <img src="https://img.shields.io/github/languages/top/${data.github}/${data.repository}?style=for-the-badge" alt="Top Language" />
-  <img src="https://img.shields.io/github/languages/code-size/${data.github}/${data.repository}?style=for-the-badge" alt="Code Size" />
-  <img src="https://img.shields.io/github/repo-size/${data.github}/${data.repository}?red?style=for-the-badge" alt="Repo Size" />
   <img src="https://img.shields.io/github/package-json/dependency-version/${data.github}/${data.repository}/inquirer?style=for-the-badge" alt="Inquirer Version" />
   <img src="https://img.shields.io/github/last-commit/${data.github}/${data.repository}?style=for-the-badge" alt="Last Commit" />
+  <img src="https://img.shields.io/github/languages/code-size/${data.github}/${data.repository}?style=for-the-badge" alt="Code Size" />
+  <img src="https://img.shields.io/github/repo-size/${data.github}/${data.repository}?style=for-the-badge" alt="Repo Size" />
   <img src="https://img.shields.io/github/issues/${data.github}/${data.repository}?style=for-the-badge" alt="Issues" />
   <img src="https://img.shields.io/github/followers/${data.github}?style=for-the-badge" alt="Followers" />
 </p>
@@ -49,11 +49,11 @@ ${collaborators(data.collaborators)}
 
 ${resources(data.resources)}
 
-${license(data.license)}
-
 ## Toolset
 
 ${toolset(data.toolset)}
+
+${license(data.license)}
 
 ## Contribute
 
