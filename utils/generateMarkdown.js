@@ -5,11 +5,6 @@ function generateMarkdown(data) {
 ## Description
 
 ${data.description}
-<br>
-// ${data.motivation}
-// ${data.why}
-// ${data.solution}
-// ${data.ilearned}
 
 ## Table of Contents
 
@@ -24,8 +19,6 @@ ${data.description}
 - [Contribute](#contribute)
 - [Tests](#tests)
 - [Deployment](#deployment)
-
-## Installation
 
 ${installation(data.installation)}
 
@@ -47,8 +40,7 @@ ${screenshot(data.screenshot)}
 ### Collaborators
 ${data.collaborators}
 
-### Resources
-${data.resources}
+${resources(data.resources)}
 
 ## License
 
@@ -97,8 +89,26 @@ function installation(installation) {
     commands.forEach((c, index) => commands[index] = commands[index].trim());
     return `
 
+    ## Installation
+
   Follow these commands to run the command line application:  
       
+    ${commands.join(`
+    `)}`;
+  }
+  else
+    return ``;
+}
+
+function resources(resources) {
+
+  if (resources) {
+    var commands = resources.split(",");
+    commands.forEach((c, index) => commands[index] = commands[index].trim());
+    return `  
+
+    ### Resources
+
     ${commands.join(`
     `)}`;
   }

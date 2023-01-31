@@ -11,7 +11,7 @@ const questions = [
   {
     type: "input",
     name: "creator",
-    message: "Full Name:"
+    message: "Creator's Name:"
   },
   {
     type: "input",
@@ -43,26 +43,6 @@ const questions = [
     name: "description",
     message: "Project Description:"
   },
-  // {
-  //   type: "input",
-  //   name: "motivation",
-  //   message: "What was your motivation?"
-  // },
-  // {
-  //   type: "input",
-  //   name: "why",
-  //   message: "Why did you build this project?"
-  // },
-  // {
-  //   type: "input",
-  //   name: "solution",
-  //   message: "What problem does it solve?"
-  // },
-  // {
-  //   type: "input",
-  //   name: "ilearned",
-  //   message: "What did you learn?"
-  // },
   {
     type: "input",
     name: "collaborators",
