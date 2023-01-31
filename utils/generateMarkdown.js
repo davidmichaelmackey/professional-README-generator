@@ -35,7 +35,7 @@ ${screenshot(data.screenshot)}
 
 ${collaborators(data.collaborators)}
 
-${resources}[${data.resources}](${(data.resources)})
+${resources(data.resources)}
 
 ${license(data.license)}
 
@@ -62,9 +62,7 @@ ${builtWith(data.toolset)}
 
 ${collaborators(data.collaborators)}
 
-## Tests
-
-${data.tests}
+${tests(data.tests)}
 
 ## Questions
 
@@ -118,6 +116,24 @@ function collaborators(collaborators) {
     var commands = collaborators.split(",");
     commands.forEach((c, index) => commands[index] = commands[index].trim());
     return `### Collaborators
+
+    ${commands.join(`
+    `)}`;
+  }
+  else
+    return ``;
+}
+
+// !============================|
+// ! function for collaborators |
+// !============================|
+
+function tests(tests) {
+
+  if (tests) {
+    var commands = tests.split(",");
+    commands.forEach((c, index) => commands[index] = commands[index].trim());
+    return `## Tests
 
     ${commands.join(`
     `)}`;

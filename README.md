@@ -38,21 +38,12 @@ Follow these commands to run the command line application:
 
 ### Collaborators
 
-    Gary Gaston
+    Michael Jackson
 
-function resources(resources) {
+### Resources
 
-  if (resources) {
-    var commands = resources.split(",");
-    commands.forEach((c, index) => commands[index] = commands[index].trim());
-    return `### Resources
-
-    ${commands.join(`
-    `)}`;
-  }
-  else
-    return ``;
-}[https://shields.io/](https://shields.io/)
+    https://shields.io/
+    https://developer.mozilla.org/en-US/
 
 ## License
 <p align = "center">
@@ -87,12 +78,10 @@ function resources(resources) {
 
 ### Collaborators
 
-    Gary Gaston
+    Michael Jackson
 
-## Tests
 
-n/a
 
-## Questions ?
+## Questions
 
 📇 Please, feel free send me an [Email](mailto:davidmackey@hey.com) or reach out to me on [Linkedin](https://linkedin.com/in/davidmichaelmackey/).
