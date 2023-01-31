@@ -11,7 +11,7 @@ const questions = [
   {
     type: "input",
     name: "creator",
-    message: "Creator's Name:"
+    message: "Name:"
   },
   {
     type: "input",
