@@ -1,83 +1,87 @@
 # <Professional README Generator>
 
-  ## Description
+## Description
 
-  - A command-line application that uses input from a user to dynamically generate a quality README for a GitHub project.
-  - 
-  - 
-  - 
-  - 
+- A command-line application that uses input from a user to dynamically generate a quality README for a GitHub project.
+- 
+- 
+- 
+- 
 
-  ## Table of Contents
+## Table of Contents
 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credits](#credits)
-    - [Creator](#creator)
-    - [Collaborators](#collaborators)
-    - [Resources](#resources)
-  - [License](#license)
-  - [Features](#features)
-  - [Contribute](#contribute)
-  - [Tests](#tests)
-  - [Deployment](#deployment)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+  - [Creator](#creator)
+  - [Collaborators](#collaborators)
+  - [Resources](#resources)
+- [License](#license)
+- [Features](#features)
+- [Contribute](#contribute)
+- [Tests](#tests)
+- [Deployment](#deployment)
 
-  ## Installation
+## Installation
 
-  
-  ## Installation
-  Follow these commands to run the command line application:  
-      
-    npm i inquirer@8.2.4
-    npm start
 
-  ## Usage
+## Installation
+Follow these commands to run the command line application:  
+    
+  npm i inquirer@8.2.4
+  npm start
 
-  ![screenshot](assets/images/.png)
+## Usage
 
-  ## Credits
+![screenshot](assets/images/.png)
+
+## Credits
 
 :bust_in_silhouette: Creator: David Michael Mackey
+<br>
 :email: Email: [davidmackey@hey.com](mailto:davidmackey@hey.com)
+<br>
 :octocat: GitHub: [davidmichaelmackey](https://github.com/davidmichaelmackey/)
+<br>
 :briefcase: Linkedin: [davidmichaelmackey](https://linkedin.com/in/davidmichaelmackey/)
+<br>
 
-  ### Collaborators
+### Collaborators
 
-  ### Resources
+### Resources
 
-  ## License
+## License
 
-  undefined
+undefined
 
-  ## Badges
+## Badges
 
-  <p align="center">
-    <img src="https://img.shields.io/github/languages/count/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Languages" />
-    <img src="https://img.shields.io/github/languages/top/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Top Language" />
-    <img src="https://img.shields.io/github/languages/code-size/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Code Size" />
-    <img src="https://img.shields.io/github/repo-size/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Repo Size" />   
-    <img src="https://img.shields.io/tokei/lines/github/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Total Lines" />
-    <img src="https://img.shields.io/github/package-json/dependency-version/davidmichaelmackey/professional-readme-generator/inquirer?style=for-the-badge" alt="Inquirer Version" />
-    <img src="https://img.shields.io/github/last-commit/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Last Commit" />  
-    <img src="https://img.shields.io/github/issues/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Issues" />  
-    <img src="https://img.shields.io/github/followers/davidmichaelmackey?style=social" alt="Followers" />
-  </p>
+<p align="center">
+  <img src="https://img.shields.io/github/languages/count/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Languages" />
+  <img src="https://img.shields.io/github/languages/top/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Top Language" />
+  <img src="https://img.shields.io/github/languages/code-size/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Code Size" />
+  <img src="https://img.shields.io/github/repo-size/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Repo Size" />   
+  <img src="https://img.shields.io/tokei/lines/github/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Total Lines" />
+  <img src="https://img.shields.io/github/package-json/dependency-version/davidmichaelmackey/professional-readme-generator/inquirer?style=for-the-badge" alt="Inquirer Version" />
+  <img src="https://img.shields.io/github/last-commit/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Last Commit" />  
+  <img src="https://img.shields.io/github/issues/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Issues" />  
+  <img src="https://img.shields.io/github/followers/davidmichaelmackey?style=social" alt="Followers" />
+</p>
 
-  ## Features
+## Features
 
-  - 
+- 
 
-  ## How to Contribute
+## How to Contribute
 
-  [Contributor Covenant](https://www.contributor-covenant.org/)
+[Contributor Covenant](https://www.contributor-covenant.org/)
 
-  ## Tests
+## Tests
 
-  n/a
+n/a
 
-  ## Deployment
+## Deployment
 
-  [Deployment Page](https://davidmichaelmackey.github.io/professional-readme-generator)
+[Deployment Page](https://davidmichaelmackey.github.io/professional-readme-generator)
 
   

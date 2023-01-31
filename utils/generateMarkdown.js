@@ -2,82 +2,84 @@
 function generateMarkdown(data) {
   let readme = `# <${data.title}>
 
-  ## Description
+## Description
 
-  - ${data.description}
-  - ${data.motivation}
-  - ${data.why}
-  - ${data.solution}
-  - ${data.learn}
+- ${data.description}
+- ${data.motivation}
+- ${data.why}
+- ${data.solution}
+- ${data.learn}
 
-  ## Table of Contents
+## Table of Contents
 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credits](#credits)
-    - [Creator](#creator)
-    - [Collaborators](#collaborators)
-    - [Resources](#resources)
-  - [License](#license)
-  - [Features](#features)
-  - [Contribute](#contribute)
-  - [Tests](#tests)
-  - [Deployment](#deployment)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+  - [Creator](#creator)
+  - [Collaborators](#collaborators)
+  - [Resources](#resources)
+- [License](#license)
+- [Features](#features)
+- [Contribute](#contribute)
+- [Tests](#tests)
+- [Deployment](#deployment)
 
-  ## Installation
+## Installation
 
-  ${installation(data.installation)}
+${installation(data.installation)}
 
-  ## Usage
+## Usage
 
-  ![screenshot](assets/images/${screenshot(data.screenshot)}.png)
+![screenshot](assets/images/${screenshot(data.screenshot)}.png)
 
-  ## Credits
+## Credits
 
-  ### Creator
+:bust_in_silhouette: Creator: ${data.creator}
+<br>
+:email: Email: [${data.email}](mailto:${data.email})
+<br>
+:octocat: GitHub: [${data.github}](https://github.com/${data.github}/)
+<br>
+:briefcase: Linkedin: [${data.linkedin}](https://linkedin.com/in/${data.linkedin}/)
+<br>
 
-    - :bust_in_silhouette: Creator: ${data.creator}
-    - :email: Email: [${data.email}](mailto:${data.email})
-    - :octocat: GitHub: [${data.github}](https://github.com/${data.github}/)
-    - :briefcase: Linkedin: [${data.linkedin}](https://linkedin.com/in/${data.linkedin}/)
+### Collaborators
 
-  ### Collaborators
+### Resources
 
-  ### Resources
+## License
 
-  ## License
+${data.license.name}
 
-  ${data.license.name}
+## Badges
 
-  ## Badges
+<p align="center">
+  <img src="https://img.shields.io/github/languages/count/${data.github}/${data.repository}?style=for-the-badge" alt="Languages" />
+  <img src="https://img.shields.io/github/languages/top/${data.github}/${data.repository}?style=for-the-badge" alt="Top Language" />
+  <img src="https://img.shields.io/github/languages/code-size/${data.github}/${data.repository}?style=for-the-badge" alt="Code Size" />
+  <img src="https://img.shields.io/github/repo-size/${data.github}/${data.repository}?style=for-the-badge" alt="Repo Size" />   
+  <img src="https://img.shields.io/tokei/lines/github/${data.github}/${data.repository}?style=for-the-badge" alt="Total Lines" />
+  <img src="https://img.shields.io/github/package-json/dependency-version/${data.github}/${data.repository}/inquirer?style=for-the-badge" alt="Inquirer Version" />
+  <img src="https://img.shields.io/github/last-commit/${data.github}/${data.repository}?style=for-the-badge" alt="Last Commit" />  
+  <img src="https://img.shields.io/github/issues/${data.github}/${data.repository}?style=for-the-badge" alt="Issues" />  
+  <img src="https://img.shields.io/github/followers/${data.github}?style=social" alt="Followers" />
+</p>
 
-  <p align="center">
-    <img src="https://img.shields.io/github/languages/count/${data.github}/${data.repository}?style=for-the-badge" alt="Languages" />
-    <img src="https://img.shields.io/github/languages/top/${data.github}/${data.repository}?style=for-the-badge" alt="Top Language" />
-    <img src="https://img.shields.io/github/languages/code-size/${data.github}/${data.repository}?style=for-the-badge" alt="Code Size" />
-    <img src="https://img.shields.io/github/repo-size/${data.github}/${data.repository}?style=for-the-badge" alt="Repo Size" />   
-    <img src="https://img.shields.io/tokei/lines/github/${data.github}/${data.repository}?style=for-the-badge" alt="Total Lines" />
-    <img src="https://img.shields.io/github/package-json/dependency-version/${data.github}/${data.repository}/inquirer?style=for-the-badge" alt="Inquirer Version" />
-    <img src="https://img.shields.io/github/last-commit/${data.github}/${data.repository}?style=for-the-badge" alt="Last Commit" />  
-    <img src="https://img.shields.io/github/issues/${data.github}/${data.repository}?style=for-the-badge" alt="Issues" />  
-    <img src="https://img.shields.io/github/followers/${data.github}?style=social" alt="Followers" />
-  </p>
+## Features
 
-  ## Features
+- 
 
-  - 
+## How to Contribute
 
-  ## How to Contribute
+[Contributor Covenant](https://www.contributor-covenant.org/)
 
-  [Contributor Covenant](https://www.contributor-covenant.org/)
+## Tests
 
-  ## Tests
+${data.tests}
 
-  ${data.tests}
+## Deployment
 
-  ## Deployment
-
-  [Deployment Page](https://${data.github}.github.io/${data.repository})
+[Deployment Page](https://${data.github}.github.io/${data.repository})
 
   `
   return readme;
