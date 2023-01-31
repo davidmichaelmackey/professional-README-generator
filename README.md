@@ -19,9 +19,10 @@ A command-line application that uses input from a user to dynamically generate a
 - [Deployment](#deployment)
 
 ## Installation
+
 Follow these commands to run the command line application:  
 
-    npm i inquirer@8.2.4
+    npm i
     npm start
 
 ## Usage
@@ -46,13 +47,13 @@ Follow these commands to run the command line application:
 ### Collaborators
 
 
+### Resources
 
+    https://shields.io/
 
 ## License
-
-## License
-<p align="center">
-  <a href='https://www.apache.org/licenses/LICENSE-2.0'><img src='https://img.shields.io/badge/License-Apache-4543AA?style=for-the-badge'  alt='Apache License' /></a>
+<p align = "center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-A31F34?style=for-the-badge" alt="MIT License"/></a>
 </p>
 
 ## Badges

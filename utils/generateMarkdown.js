@@ -45,8 +45,6 @@ ${data.collaborators}
 
 ${resources(data.resources)}
 
-## License
-
 ${license(data.license)}
 
 ## Badges
@@ -93,6 +91,7 @@ function installation(installation) {
     var commands = installation.split(",");
     commands.forEach((c, index) => commands[index] = commands[index].trim());
     return `## Installation
+
 Follow these commands to run the command line application:  
 
     ${commands.join(`
@@ -111,9 +110,7 @@ function resources(resources) {
   if (resources) {
     var commands = resources.split(",");
     commands.forEach((c, index) => commands[index] = commands[index].trim());
-    return `  
-
-### Resources
+    return `### Resources
 
     ${commands.join(`
     `)}`;
@@ -228,9 +225,9 @@ function license(license) {
 
     ];
     return `## License
-<p align="center">
-  <a href='${licenseBadges[license].href}'><img src='${licenseBadges[license].src}'  alt='${licenseBadges[license].alt}' /></a>
-</p>`
+<p align = "center">
+  <a href="${licenseBadges[license].href}"><img src="${licenseBadges[license].src}" alt="${licenseBadges[license].alt}"/></a>
+</p>`;
   }
 }
 
