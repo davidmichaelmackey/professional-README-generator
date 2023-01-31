@@ -94,7 +94,7 @@ function installation(installation) {
     var commands = installation.split(",");
     commands.forEach((c, index) => commands[index] = commands[index].trim());
     return `
-  ## Installation
+
   Follow these commands to run the command line application:  
       
     ${commands.join(`
