@@ -73,7 +73,7 @@ ${data.tests}
 
 ## Questions
 
-
+Please, feel free send me an [email](mailto:${data.email}) me or reach out to me on [GitHub](https://github.com/${data.github}/ or [Linkedin](https://linkedin.com/in/${data.linkedin}/.)
 `
   return readme;
 }

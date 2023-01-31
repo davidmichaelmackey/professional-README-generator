@@ -34,24 +34,24 @@ Follow these commands to run the command line application:
 
 ## Credits
 
-:bust_in_silhouette:  Creator: David Mackey
+:bust_in_silhouette: Creator: David Michael Mackey
 <br>
-:email:  Email: [davidmackey@hey.com](mailto:davidmackey@hey.com)
+:email: Email: [davidmackey@hey.com](mailto:davidmackey@hey.com)
 <br>
-:octocat:  GitHub: [davidmichaelmackey](https://github.com/davidmichaelmackey/)
+:octocat: GitHub: [davidmichaelmackey](https://github.com/davidmichaelmackey/)
 <br>
-:briefcase:  Linkedin: [davidmichaelmackey](https://linkedin.com/in/davidmichaelmackey/)
+:briefcase: Linkedin: [davidmichaelmackey](https://linkedin.com/in/davidmichaelmackey/)
 <br>
 
+### Collaborators
 
+    n/a
 
-### Resources
-
-    https://shields.io/
+[]()
 
 ## License
 <p align = "center">
-  <a href="https://opensource.org/licenses/MPL-2.0"><img src="https://img.shields.io/badge/License-MPL-E66000?style=for-the-badge" alt="Mozilla Public License"/></a>
+  <a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPL-BD0100?style=for-the-badge" alt="General Public License"/></a>
 </p>
 
 ## Badges
