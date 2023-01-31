@@ -44,25 +44,16 @@ Follow these commands to run the command line application:
 <br>
 
 ### Collaborators
-n/a
 
-  
 
-### Resources
 
-    n/a
 
 ## License
 
-
-    ## License
-
-    </br>
-    <p align="center">
-        <a href='https://www.gnu.org/licenses/gpl-3.0'><img src='https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge'  alt='GNU General Public License' /></a>
-    </p>
-
-    
+## License
+<p align="center">
+  <a href='https://www.apache.org/licenses/LICENSE-2.0'><img src='https://img.shields.io/badge/License-Apache-4543AA?style=for-the-badge'  alt='Apache License' /></a>
+</p>
 
 ## Badges
 
