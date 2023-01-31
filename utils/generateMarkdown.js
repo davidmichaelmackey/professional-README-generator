@@ -128,4 +128,18 @@ function builtWith(tools) {
   }
 }
 
+function screenshot(screenshot) {
+  if (screenshot) {
+    return `
+
+  ## Screenshot
+
+  ![Site](assets/images/${screenshot})
+
+    `;
+  } else {
+    return ``;
+  }
+}
+
 module.exports = generateMarkdown;
