@@ -87,12 +87,9 @@ function installation(installation) {
   if (installation) {
     var commands = installation.split(",");
     commands.forEach((c, index) => commands[index] = commands[index].trim());
-    return `
+    return `## Installation
+Follow these commands to run the command line application:  
 
-    ## Installation
-
-  Follow these commands to run the command line application:  
-      
     ${commands.join(`
     `)}`;
   }
@@ -107,7 +104,7 @@ function resources(resources) {
     commands.forEach((c, index) => commands[index] = commands[index].trim());
     return `  
 
-    ### Resources
+### Resources
 
     ${commands.join(`
     `)}`;
