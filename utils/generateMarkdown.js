@@ -1,8 +1,6 @@
 // ! function to generate markdown for README
 function generateMarkdown(data) {
-  let readme = `
-  
-  # <${data.title}>
+  let readme = `# <${data.title}>
 
   ## Description
 
@@ -39,9 +37,10 @@ function generateMarkdown(data) {
 
   ### Creator
 
-  - :: Creator: ${data.name}
-  - :octocat: GitHub: [](https://github.com/${data.github})
-  - :: Linkedin [](https://linkedin.com/in/${data.linkedin})
+    - :bust_in_silhouette: Creator: ${data.creator}
+    - :email: Email: [${data.email}](mailto:${data.email})
+    - :octocat: GitHub: [${data.github}](https://github.com/${data.github}/)
+    - :briefcase: Linkedin: [${data.linkedin}](https://linkedin.com/in/${data.linkedin}/)
 
   ### Collaborators
 
@@ -53,7 +52,6 @@ function generateMarkdown(data) {
 
   ## Badges
 
-  ![Languages](https://img.shields.io/github/languages/top/davidmichaelmackey/professional-readme-generator?color=%23f7df1e&label=JavaScript&logo=JavaScript&style=for-the-badge)
   <p align="center">
     <img src="https://img.shields.io/github/languages/count/${data.github}/${data.repository}?style=for-the-badge" alt="Languages" />
     <img src="https://img.shields.io/github/languages/top/${data.github}/${data.repository}?style=for-the-badge" alt="Top Language" />
@@ -80,7 +78,7 @@ function generateMarkdown(data) {
 
   ## Deployment
 
-  ${data.deployment}
+  [Deployment Page](https://${data.github}.github.io/${data.repository})
 
   `
   return readme;

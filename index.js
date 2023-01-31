@@ -46,7 +46,7 @@ const questions = [
   {
     type: "checkbox",
     name: "sections",
-    message: "Add Section(s):",
+    message: "Select Section(s):",
     choices: [
       new inquirer.Separator(' = Pick Section(s) = '),
       {name: 'Installation'},
@@ -59,20 +59,20 @@ const questions = [
     type: "input",
     name: "installation",
     message: "Installation Commands: (separate by comma)",
-    when: (data) => (data.sections.indexOf("installation") >= 0)
+    when: (data) => (data.sections.indexOf("Installation") >= 0)
   },
   {
     type: "input",
     name: "screenshot",
     message: "Screenshot Filename:",
-    when: (data) => (data.sections.indexOf("screenshots") >= 0)
+    when: (data) => (data.sections.indexOf("Screenshot") >= 0)
   },
   {
     type: "input",
     name: "toolset",
     message: "Enter tools used separated by a comma (no spaces)",
-    default: "",
-    when: (data) => (data.sections.indexOf("toolset") >= 0)
+    // default: "",
+    when: (data) => (data.sections.indexOf("Toolset") >= 0)
   },
   {
     type: "list",
@@ -120,7 +120,7 @@ const questions = [
         value: 9
       }
     ],
-    when: (data) => (data.sections.indexOf("license") >= 0)
+    when: (data) => (data.sections.indexOf("License") >= 0)
   },
   {
     type: "input",
