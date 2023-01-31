@@ -84,7 +84,7 @@ const questions = [
   {
     type: "input",
     name: "toolset",
-    message: "Enter tools used... (separated by a comma, no spaces):",
+    message: "Enter tools used... (separated by a comma):",
     // default: "",
     when: (data) => (data.sections.indexOf("Toolset") >= 0)
   },

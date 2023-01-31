@@ -15,11 +15,9 @@ A command-line application that uses input from a user to dynamically generate a
 - [Tests](#tests)
 - [Deployment](#deployment)
 
+## Installation
+Follow these commands to run the command line application:  
 
-    ## Installation
-    
-    Follow these commands to run the command line application:  
-    <br>
     npm i
     npm start
 
@@ -33,18 +31,19 @@ A command-line application that uses input from a user to dynamically generate a
 
 ## Credits
 
-:bust_in_silhouette: Creator: David<br>
+:bust_in_silhouette: Creator: David Michael Mackey<br>
 :email: Email: [davidmackey@hey.com](mailto:davidmackey@hey.com)<br>
 :octocat: GitHub: [davidmichaelmackey](https://github.com/davidmichaelmackey/)<br>
 :briefcase: Linkedin: [davidmichaelmackey](https://linkedin.com/in/davidmichaelmackey/)<br>
 
 ### Collaborators
 
-    Joe Shmo
+    Michael Jackson
 
-<!--- [https://shields.io/](### Resources
+[https://shields.io/,https://developer.mozilla.org/en-US/](### Resources
 
-    https://shields.io/) --->
+    https://shields.io/
+    https://developer.mozilla.org/en-US/)
 
 ## License
 <p align = "center">
@@ -64,6 +63,8 @@ A command-line application that uses input from a user to dynamically generate a
   <img src="https://img.shields.io/github/followers/davidmichaelmackey?style=for-the-badge" alt="Followers" />
 </p>
 
+## Features
+
 <p align="center"><img src="https://img.shields.io/badge/-JS-grey?style=for-the-badge"  alt="JS" />
       <img src="https://img.shields.io/badge/-NodeJS-grey?style=for-the-badge"  alt="NodeJS" />
       <img src="https://img.shields.io/badge/-NPM-grey?style=for-the-badge"  alt="NPM" />
@@ -71,15 +72,13 @@ A command-line application that uses input from a user to dynamically generate a
       
 </p>
 
-## Features
-
 ## Contribute
 
 [Contributor Covenant](https://www.contributor-covenant.org/)
 
 ### Collaborators
 
-    Joe Shmo
+    Michael Jackson
 
 ## Tests
 
