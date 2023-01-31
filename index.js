@@ -2,11 +2,32 @@
 
 const fs = require("fs");
 const inquirer = require("inquirer");
+const util = require("util");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // ! array of questions for user input
 
 const questions = [
+  {
+    type: "input",
+    name: "creator",
+    message: "Full Name:"
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "Email Address:"
+  },
+  {
+    type: "input",
+    name: "linkedin",
+    message: "Linkedin Username:"
+  },
+  {
+    type: "input",
+    name: "github",
+    message: "GitHub Username:"
+  },
   {
     type: "input",
     name: "repository",
@@ -30,6 +51,7 @@ const questions = [
       new inquirer.Separator(' = Pick Section(s) = '),
       {name: 'Installation'},
       {name: 'Screenshot'},
+      {name: 'Toolset'},
       {name: 'License'},
     ]
   },
@@ -47,28 +69,10 @@ const questions = [
   },
   {
     type: "input",
-    name: "creator",
-    message: "Creator's Name:"
-  },
-  {
-    type: "input",
-    name: "email",
-    message: "Email Address:"
-  },
-  {
-    type: "input",
-    name: "github",
-    message: "GitHub Username:"
-  },
-  {
-    type: "input",
-    name: "linkedin",
-    message: "Linkedin Username:"
-  },
-  {
-    type: "input",
-    name: "tests",
-    message: "Test:"
+    name: "toolset",
+    message: "Enter tools used separated by a comma (no spaces)",
+    default: "",
+    when: (data) => (data.sections.indexOf("toolset") >= 0)
   },
   {
     type: "list",
@@ -117,6 +121,11 @@ const questions = [
       }
     ],
     when: (data) => (data.sections.indexOf("license") >= 0)
+  },
+  {
+    type: "input",
+    name: "tests",
+    message: "Tests:"
   }
 ];
 
