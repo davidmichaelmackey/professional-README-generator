@@ -15,10 +15,11 @@ A command-line application that uses input from a user to dynamically generate a
 - [Tests](#tests)
 - [Deployment](#deployment)
 
-## Installation
+
+    ## Installation
     
     Follow these commands to run the command line application:  
-    
+    <br>
     npm i
     npm start
 
@@ -32,12 +33,14 @@ A command-line application that uses input from a user to dynamically generate a
 
 ## Credits
 
-:bust_in_silhouette: Creator: David Mackey<br>
+:bust_in_silhouette: Creator: David<br>
 :email: Email: [davidmackey@hey.com](mailto:davidmackey@hey.com)<br>
 :octocat: GitHub: [davidmichaelmackey](https://github.com/davidmichaelmackey/)<br>
 :briefcase: Linkedin: [davidmichaelmackey](https://linkedin.com/in/davidmichaelmackey/)<br>
 
+### Collaborators
 
+    Joe Shmo
 
 <!--- [https://shields.io/](### Resources
 
@@ -61,10 +64,10 @@ A command-line application that uses input from a user to dynamically generate a
   <img src="https://img.shields.io/github/followers/davidmichaelmackey?style=for-the-badge" alt="Followers" />
 </p>
 
-<p align="center"><img src="https://img.shields.io/badge/-JS-lightgrey?style=for-the-badge"  alt="JS" />
-      <img src="https://img.shields.io/badge/-NodeJS-lightgrey?style=for-the-badge"  alt="NodeJS" />
-      <img src="https://img.shields.io/badge/-NPM-lightgrey?style=for-the-badge"  alt="NPM" />
-      <img src="https://img.shields.io/badge/-Inquirer-lightgrey?style=for-the-badge"  alt="Inquirer" />
+<p align="center"><img src="https://img.shields.io/badge/-JS-grey?style=for-the-badge"  alt="JS" />
+      <img src="https://img.shields.io/badge/-NodeJS-grey?style=for-the-badge"  alt="NodeJS" />
+      <img src="https://img.shields.io/badge/-NPM-grey?style=for-the-badge"  alt="NPM" />
+      <img src="https://img.shields.io/badge/-Inquirer-grey?style=for-the-badge"  alt="Inquirer" />
       
 </p>
 
@@ -74,7 +77,9 @@ A command-line application that uses input from a user to dynamically generate a
 
 [Contributor Covenant](https://www.contributor-covenant.org/)
 
+### Collaborators
 
+    Joe Shmo
 
 ## Tests
 

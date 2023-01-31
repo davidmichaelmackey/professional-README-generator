@@ -35,7 +35,7 @@ ${screenshot(data.screenshot)}
 
 ${collaborators(data.collaborators)}
 
-<!--- [${data.resources}](${resources(data.resources)}) --->
+[${data.resources}](${resources(data.resources)})
 
 ${license(data.license)}
 
@@ -52,9 +52,9 @@ ${license(data.license)}
   <img src="https://img.shields.io/github/followers/${data.github}?style=for-the-badge" alt="Followers" />
 </p>
 
-${builtWith(data.toolset)}
-
 ## Features
+
+${builtWith(data.toolset)}
 
 ## Contribute
 
@@ -82,10 +82,11 @@ function installation(installation) {
   if (installation) {
     var commands = installation.split(",");
     commands.forEach((c, index) => commands[index] = commands[index].trim());
-    return `## Installation
+    return `
+    ## Installation
     
     Follow these commands to run the command line application:  
-    
+    <br>
     ${commands.join(`
     `)}`;
   }
@@ -154,7 +155,7 @@ function builtWith(tools) {
     tools = tools.split(",");
     let res = `<p align="center">`;
     tools.forEach(tool => {
-      res += `<img src="https://img.shields.io/badge/-${tool}-lightgrey?style=for-the-badge"  alt="${tool}" />
+      res += `<img src="https://img.shields.io/badge/-${tool}-grey?style=for-the-badge"  alt="${tool}" />
       `;
     });
     res += `
