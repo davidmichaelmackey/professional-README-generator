@@ -13,9 +13,6 @@ ${data.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-  - [Creator](#creator)
-  - [Collaborators](#collaborators)
-  - [Resources](#resources)
 - [License](#license)
 - [Features](#features)
 - [Contribute](#contribute)
@@ -58,7 +55,7 @@ ${builtWith(data.toolset)}
 
 ## Features
 
-## Contributors
+${collaborators(data.collaborators)}
 
 [Contributor Covenant](https://www.contributor-covenant.org/)
 
@@ -68,7 +65,7 @@ ${data.tests}
 
 ## Questions ?
 
-📇 Please, feel free send me an [email](mailto:${data.email}) me or reach out to me on [GitHub](https://github.com/${data.github}/) or [Linkedin](https://linkedin.com/in/${data.linkedin}/).
+📇 Please, feel free send me an [Email](mailto:${data.email}) or reach out to me on [Linkedin](https://linkedin.com/in/${data.linkedin}/).
 `
   return readme;
 }
@@ -83,8 +80,42 @@ function installation(installation) {
     var commands = installation.split(",");
     commands.forEach((c, index) => commands[index] = commands[index].trim());
     return `## Installation
+    
+    Follow these commands to run the command line application:  
+    
+    ${commands.join(`
+    `)}`;
+  }
+  else
+    return ``;
+}
 
-Follow these commands to run the command line application:  
+// !=========================|
+// ! function for screenshot |
+// !=========================|
+
+function screenshot(screenshot) {
+  if (screenshot) {
+    return `
+
+  ![Usage](assets/images/${screenshot})
+
+    `;
+  } else {
+    return ``;
+  }
+}
+
+// !============================|
+// ! function for collaborators |
+// !============================|
+
+function collaborators(collaborators) {
+
+  if (collaborators) {
+    var commands = collaborators.split(",");
+    commands.forEach((c, index) => commands[index] = commands[index].trim());
+    return `## Collaborators
 
     ${commands.join(`
     `)}`;
@@ -103,24 +134,6 @@ function resources(resources) {
     var commands = resources.split(",");
     commands.forEach((c, index) => commands[index] = commands[index].trim());
     return `### Resources
-
-    ${commands.join(`
-    `)}`;
-  }
-  else
-    return ``;
-}
-
-// !============================|
-// ! function for collaborators |
-// !============================|
-
-function collaborators(collaborators) {
-
-  if (collaborators) {
-    var commands = collaborators.split(",");
-    commands.forEach((c, index) => commands[index] = commands[index].trim());
-    return `### Collaborators
 
     ${commands.join(`
     `)}`;
@@ -156,21 +169,6 @@ function builtWith(tools) {
   }
 }
 
-// !=========================|
-// ! function for screenshot |
-// !=========================|
-
-function screenshot(screenshot) {
-  if (screenshot) {
-    return `
-
-  ![Usage](assets/images/${screenshot})
-
-    `;
-  } else {
-    return ``;
-  }
-}
 // !======================|
 // ! function for license |
 // !======================|
