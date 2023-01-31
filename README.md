@@ -13,7 +13,7 @@ A command-line application that uses input from a user to dynamically generate a
 - [Features](#features)
 - [Contribute](#contribute)
 - [Tests](#tests)
-- [Deployment](#deployment)
+- [Questions](#questions)
 
 ## Installation
 Follow these commands to run the command line application:  
@@ -31,19 +31,18 @@ Follow these commands to run the command line application:
 
 ## Credits
 
-:bust_in_silhouette: Creator: David Michael Mackey<br>
+:bust_in_silhouette: Creator: David Mackey<br>
 :email: Email: [davidmackey@hey.com](mailto:davidmackey@hey.com)<br>
 :octocat: GitHub: [davidmichaelmackey](https://github.com/davidmichaelmackey/)<br>
 :briefcase: Linkedin: [davidmichaelmackey](https://linkedin.com/in/davidmichaelmackey/)<br>
 
 ### Collaborators
 
-    Michael Jackson
+    Bruce Springsteen
 
-[https://shields.io/,https://developer.mozilla.org/en-US/](### Resources
+[https://shields.io/](### Resources
 
-    https://shields.io/
-    https://developer.mozilla.org/en-US/)
+    https://shields.io/)
 
 ## License
 <p align = "center">
@@ -78,7 +77,7 @@ Follow these commands to run the command line application:
 
 ### Collaborators
 
-    Michael Jackson
+    Bruce Springsteen
 
 ## Tests
 
