@@ -8,9 +8,6 @@ A command-line application that uses input from a user to dynamically generate a
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-  - [Creator](#creator)
-  - [Collaborators](#collaborators)
-  - [Resources](#resources)
 - [License](#license)
 - [Features](#features)
 - [Contribute](#contribute)
@@ -18,15 +15,19 @@ A command-line application that uses input from a user to dynamically generate a
 - [Deployment](#deployment)
 
 ## Installation
-
-Follow these commands to run the command line application:  
-
+    
+    Follow these commands to run the command line application:  
+    
     npm i
     npm start
 
 ## Usage
 
 
+
+  ![Usage](assets/images/screenshot.gif)
+
+    
 
 ## Credits
 
@@ -35,9 +36,13 @@ Follow these commands to run the command line application:
 :octocat: GitHub: [davidmichaelmackey](https://github.com/davidmichaelmackey/)<br>
 :briefcase: Linkedin: [davidmichaelmackey](https://linkedin.com/in/davidmichaelmackey/)<br>
 
+## Collaborators
 
+    Test Collaborator
 
-<!--- []() --->
+<!--- [https://shields.io/](### Resources
+
+    https://shields.io/) --->
 
 ## License
 <p align = "center">
@@ -68,7 +73,9 @@ Follow these commands to run the command line application:
 
 ## Features
 
-## Contributors
+## Collaborators
+
+    Test Collaborator
 
 [Contributor Covenant](https://www.contributor-covenant.org/)
 
@@ -78,4 +85,4 @@ n/a
 
 ## Questions ?
 
-📇 Please, feel free send me an [email](mailto:davidmackey@hey.com) me or reach out to me on [GitHub](https://github.com/davidmichaelmackey/) or [Linkedin](https://linkedin.com/in/davidmichaelmackey/).
+📇 Please, feel free send me an [Email](mailto:davidmackey@hey.com) or reach out to me on [Linkedin](https://linkedin.com/in/davidmichaelmackey/).
