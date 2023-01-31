@@ -2,12 +2,11 @@
 
   ## Description
 
-  A command-line application that uses input from a user to dynamically generate a quality README for a GitHub project.
-
-  - What was your motivation?
-  - Why did you build this project?
-  - What problem does it solve?
-  - What did you learn?
+  - A command-line application that uses input from a user to dynamically generate a quality README for a GitHub project.
+  - 
+  - 
+  - 
+  - 
 
   ## Table of Contents
 
@@ -29,22 +28,18 @@
   ## Installation
   Follow these commands to run the command line application:  
       
-    npm i
+    npm i inquirer@8.2.4
     npm start
 
   ## Usage
 
-  ![screenshot](assets/images/
-
-  ## Screenshot
-
-  ![Site](assets/images/screenshot.gif)
-
-    .png)
+  ![screenshot](assets/images/.png)
 
   ## Credits
 
-    - :bust_in_silhouette: Creator: David Mackey
+  ### Creator
+
+    - :bust_in_silhouette: Creator: David Michael Mackey
     - :email: Email: [davidmackey@hey.com](mailto:davidmackey@hey.com)
     - :octocat: GitHub: [davidmichaelmackey](https://github.com/davidmichaelmackey/)
     - :briefcase: Linkedin: [davidmichaelmackey](https://linkedin.com/in/davidmichaelmackey/)
@@ -55,7 +50,7 @@
 
   ## License
 
-  
+  undefined
 
   ## Badges
 
