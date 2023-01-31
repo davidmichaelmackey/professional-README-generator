@@ -4,13 +4,13 @@
 ## Badges
 
 <p align="center">
-  <img src="https://img.shields.io/github/languages/count/davidmichaelmackey/professional-readme-generator?color=4285F4&style=for-the-badge" alt="Languages" />
-  <img src="https://img.shields.io/github/languages/top/davidmichaelmackey/professional-readme-generator?color=FBBC05&style=for-the-badge" alt="Top Language" />
+  <img src="https://img.shields.io/github/languages/count/davidmichaelmackey/professional-readme-generator?color=FF9AA2&style=for-the-badge" alt="Languages" />
+  <img src="https://img.shields.io/github/languages/top/davidmichaelmackey/professional-readme-generator?color=FFB7B2&style=for-the-badge" alt="Top Language" />
   <img src="https://img.shields.io/github/package-json/dependency-version/davidmichaelmackey/professional-readme-generator/inquirer?color=CC3534&style=for-the-badge&logo=npm" alt="Inquirer Version" />
-  <img src="https://img.shields.io/github/languages/code-size/davidmichaelmackey/professional-readme-generator?color=45dc81&style=for-the-badge" alt="Code Size" />
-  <img src="https://img.shields.io/github/repo-size/davidmichaelmackey/professional-readme-generator?color=7ad0ed&style=for-the-badge" alt="Repo Size" />
-  <img src="https://img.shields.io/github/last-commit/davidmichaelmackey/professional-readme-generator?color=34A853&style=for-the-badge" alt="Last Commit" />
-  <img src="https://img.shields.io/github/issues/davidmichaelmackey/professional-readme-generator?color=FE5000&style=for-the-badge" alt="Issues" />
+  <img src="https://img.shields.io/github/languages/code-size/davidmichaelmackey/professional-readme-generator?color=FFDAC1&style=for-the-badge" alt="Code Size" />
+  <img src="https://img.shields.io/github/repo-size/davidmichaelmackey/professional-readme-generator?color=E2F0CB&style=for-the-badge" alt="Repo Size" />
+  <img src="https://img.shields.io/github/last-commit/davidmichaelmackey/professional-readme-generator?color=B5EAD7&style=for-the-badge" alt="Last Commit" />
+  <img src="https://img.shields.io/github/issues/davidmichaelmackey/professional-readme-generator?color=C7CEEA&style=for-the-badge" alt="Issues" />
   <img src="https://img.shields.io/github/followers/davidmichaelmackey?style=for-the-badge" alt="Followers" />
 </p>
 
