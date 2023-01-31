@@ -38,9 +38,9 @@ ${installation(data.installation)}
 <br>
 :email: Email: [${data.email}](mailto:${data.email})
 <br>
-:octocat: GitHub: [${data.github}](https://github.com/${data.github}/)
+:octocat: GitHub: [${data.github}](external.ink?to=https://github.com/${data.github}/)
 <br>
-:briefcase: Linkedin: [${data.linkedin}](https://linkedin.com/in/${data.linkedin}/)
+:briefcase: Linkedin: [${data.linkedin}](external.ink?to=https://linkedin.com/in/${data.linkedin}/)
 <br>
 
 ### Collaborators
