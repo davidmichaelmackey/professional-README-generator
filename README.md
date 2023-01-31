@@ -17,24 +17,15 @@ A command-line application that uses input from a user to dynamically generate a
 - [Tests](#tests)
 - [Deployment](#deployment)
 
-## Installation
 
-Follow these commands to run the command line application:  
-
-    npm i
-    npm start
 
 ## Usage
 
 
 
-  ![Usage](assets/images/screenshot)
-
-    
-
 ## Credits
 
-:bust_in_silhouette: Creator: David Michael Mackey
+:bust_in_silhouette: Creator: David Mackey
 <br>
 :email: Email: [davidmackey@hey.com](mailto:davidmackey@hey.com)
 <br>
@@ -43,15 +34,13 @@ Follow these commands to run the command line application:
 :briefcase: Linkedin: [davidmichaelmackey](https://linkedin.com/in/davidmichaelmackey/)
 <br>
 
-### Collaborators
 
-    n/a
 
 []()
 
 ## License
 <p align = "center">
-  <a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPL-BD0100?style=for-the-badge" alt="General Public License"/></a>
+  <a href="https://opensource.org/licenses/EPL-1.0)"><img src="https://img.shields.io/badge/License-EPL-E89940?style=for-the-badge" alt="Eclipse Public License"/></a>
 </p>
 
 ## Badges
@@ -85,8 +74,8 @@ Follow these commands to run the command line application:
 
 ## Tests
 
-n/a
+
 
 ## Questions
 
-
+Please, feel free send me an [email](mailto:davidmackey@hey.com) me or reach out to me on [GitHub](https://github.com/davidmichaelmackey/ or [Linkedin](https://linkedin.com/in/davidmichaelmackey/.)
