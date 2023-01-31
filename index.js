@@ -64,6 +64,16 @@ const questions = [
   //   message: "What did you learn?"
   // },
   {
+    type: "input",
+    name: "collaborators",
+    message: "Collaborators: (if any)",
+  },
+  {
+    type: "input",
+    name: "resources",
+    message: "Resources: (separate by comma)"
+  },
+  {
     type: "checkbox",
     name: "sections",
     message: "Select Section(s):",
