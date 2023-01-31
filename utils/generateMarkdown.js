@@ -30,18 +30,14 @@ ${screenshot(data.screenshot)}
 
 ## Credits
 
-:bust_in_silhouette: Creator: ${data.creator}
-<br>
-:email: Email: [${data.email}](mailto:${data.email})
-<br>
-:octocat: GitHub: [${data.github}](https://github.com/${data.github}/)
-<br>
-:briefcase: Linkedin: [${data.linkedin}](https://linkedin.com/in/${data.linkedin}/)
-<br>
+:bust_in_silhouette: Creator: ${data.creator}<br>
+:email: Email: [${data.email}](mailto:${data.email})<br>
+:octocat: GitHub: [${data.github}](https://github.com/${data.github}/)<br>
+:briefcase: Linkedin: [${data.linkedin}](https://linkedin.com/in/${data.linkedin}/)<br>
 
 ${collaborators(data.collaborators)}
 
-[${data.resources}](${resources(data.resources)})
+<!--- [${data.resources}](${resources(data.resources)}) --->
 
 ${license(data.license)}
 
@@ -51,17 +47,16 @@ ${license(data.license)}
   <img src="https://img.shields.io/github/languages/count/${data.github}/${data.repository}?style=for-the-badge" alt="Languages" />
   <img src="https://img.shields.io/github/languages/top/${data.github}/${data.repository}?style=for-the-badge" alt="Top Language" />
   <img src="https://img.shields.io/github/languages/code-size/${data.github}/${data.repository}?style=for-the-badge" alt="Code Size" />
-  <img src="https://img.shields.io/github/repo-size/${data.github}/${data.repository}?style=for-the-badge" alt="Repo Size" />   
-  <img src="https://img.shields.io/tokei/lines/github/${data.github}/${data.repository}?style=for-the-badge" alt="Total Lines" />
+  <img src="https://img.shields.io/github/repo-size/${data.github}/${data.repository}?style=for-the-badge" alt="Repo Size" />
   <img src="https://img.shields.io/github/package-json/dependency-version/${data.github}/${data.repository}/inquirer?style=for-the-badge" alt="Inquirer Version" />
-  <img src="https://img.shields.io/github/last-commit/${data.github}/${data.repository}?style=for-the-badge" alt="Last Commit" />  
-  <img src="https://img.shields.io/github/issues/${data.github}/${data.repository}?style=for-the-badge" alt="Issues" />  
+  <img src="https://img.shields.io/github/last-commit/${data.github}/${data.repository}?style=for-the-badge" alt="Last Commit" />
+  <img src="https://img.shields.io/github/issues/${data.github}/${data.repository}?style=for-the-badge" alt="Issues" />
   <img src="https://img.shields.io/github/followers/${data.github}?style=social" alt="Followers" />
 </p>
 
-## Features
-
 ${builtWith(data.toolset)}
+
+## Features
 
 ## Contributors
 
@@ -73,7 +68,7 @@ ${data.tests}
 
 ## Questions ?
 
-Please, feel free send me an [email](mailto:${data.email}) me or reach out to me on [GitHub](https://github.com/${data.github}/) or [Linkedin](https://linkedin.com/in/${data.linkedin}/).
+📇 Please, feel free send me an [email](mailto:${data.email}) me or reach out to me on [GitHub](https://github.com/${data.github}/) or [Linkedin](https://linkedin.com/in/${data.linkedin}/).
 `
   return readme;
 }

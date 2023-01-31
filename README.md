@@ -1,7 +1,7 @@
-# <bing bong test>
+# <Professional README Generator>
 
 ## Description
-lorem ipsum
+A command-line application that uses input from a user to dynamically generate a quality README for a GitHub project.
 
 ## Table of Contents
 
@@ -30,20 +30,14 @@ Follow these commands to run the command line application:
 
 ## Credits
 
-:bust_in_silhouette: Creator: test
-<br>
-:email: Email: [test@gmail.com](mailto:test@gmail.com)
-<br>
-:octocat: GitHub: [davidmichaelmackey](https://github.com/davidmichaelmackey/)
-<br>
-:briefcase: Linkedin: [davidmichaelmackey](https://linkedin.com/in/davidmichaelmackey/)
-<br>
+:bust_in_silhouette: Creator: David Mackey<br>
+:email: Email: [davidmackey@hey.com](mailto:davidmackey@hey.com)<br>
+:octocat: GitHub: [davidmichaelmackey](https://github.com/davidmichaelmackey/)<br>
+:briefcase: Linkedin: [davidmichaelmackey](https://linkedin.com/in/davidmichaelmackey/)<br>
 
 
 
-[shields.io](### Resources
-
-    shields.io)
+<!--- []() --->
 
 ## License
 <p align = "center">
@@ -56,15 +50,12 @@ Follow these commands to run the command line application:
   <img src="https://img.shields.io/github/languages/count/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Languages" />
   <img src="https://img.shields.io/github/languages/top/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Top Language" />
   <img src="https://img.shields.io/github/languages/code-size/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Code Size" />
-  <img src="https://img.shields.io/github/repo-size/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Repo Size" />   
-  <img src="https://img.shields.io/tokei/lines/github/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Total Lines" />
+  <img src="https://img.shields.io/github/repo-size/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Repo Size" />
   <img src="https://img.shields.io/github/package-json/dependency-version/davidmichaelmackey/professional-readme-generator/inquirer?style=for-the-badge" alt="Inquirer Version" />
-  <img src="https://img.shields.io/github/last-commit/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Last Commit" />  
-  <img src="https://img.shields.io/github/issues/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Issues" />  
+  <img src="https://img.shields.io/github/last-commit/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Last Commit" />
+  <img src="https://img.shields.io/github/issues/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Issues" />
   <img src="https://img.shields.io/github/followers/davidmichaelmackey?style=social" alt="Followers" />
 </p>
-
-## Features
 
 ### Built With
 
@@ -75,14 +66,16 @@ Follow these commands to run the command line application:
       
 </p>
 
+## Features
+
 ## Contributors
 
 [Contributor Covenant](https://www.contributor-covenant.org/)
 
 ## Tests
 
-
+n/a
 
 ## Questions ?
 
-Please, feel free send me an [email](mailto:test@gmail.com) me or reach out to me on [GitHub](https://github.com/davidmichaelmackey/) or [Linkedin](https://linkedin.com/in/davidmichaelmackey/).
+📇 Please, feel free send me an [email](mailto:davidmackey@hey.com) me or reach out to me on [GitHub](https://github.com/davidmichaelmackey/) or [Linkedin](https://linkedin.com/in/davidmichaelmackey/).
