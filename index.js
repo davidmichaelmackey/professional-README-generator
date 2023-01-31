@@ -60,7 +60,7 @@ const questions = [
   },
   {
     type: "input",
-    name: "learn",
+    name: "ilearned",
     message: "What did you learn?"
   },
   {
@@ -91,7 +91,7 @@ const questions = [
     type: "input",
     name: "toolset",
     message: "Enter tools used separated by a comma (no spaces)",
-    // default: "",
+    default: "",
     when: (data) => (data.sections.indexOf("Toolset") >= 0)
   },
   {

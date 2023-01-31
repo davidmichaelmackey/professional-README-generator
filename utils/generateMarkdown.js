@@ -4,11 +4,12 @@ function generateMarkdown(data) {
 
 ## Description
 
-- ${data.description}
+${data.description}
+<br>
 - ${data.motivation}
 - ${data.why}
 - ${data.solution}
-- ${data.learn}
+- ${data.ilearned}
 
 ## Table of Contents
 
@@ -30,7 +31,7 @@ ${installation(data.installation)}
 
 ## Usage
 
-![screenshot](assets/images/${screenshot(data.screenshot)}.png)
+${screenshot(data.screenshot)}
 
 ## Credits
 
@@ -38,9 +39,9 @@ ${installation(data.installation)}
 <br>
 :email: Email: [${data.email}](mailto:${data.email})
 <br>
-:octocat: GitHub: [${data.github}](external.ink?to=https://github.com/${data.github}/)
+:octocat: GitHub: [${data.github}](https://github.com/${data.github}/)
 <br>
-:briefcase: Linkedin: [${data.linkedin}](external.ink?to=https://linkedin.com/in/${data.linkedin}/)
+:briefcase: Linkedin: [${data.linkedin}](https://linkedin.com/in/${data.linkedin}/)
 <br>
 
 ### Collaborators
@@ -136,8 +137,6 @@ function installation(installation) {
 function screenshot(screenshot) {
   if (screenshot) {
     return `
-
-  ## Screenshot
 
   ![Usage](assets/images/${screenshot})
 
