@@ -44,8 +44,6 @@
 
   ## Credits
 
-  ### Creator
-
     - :bust_in_silhouette: Creator: David Mackey
     - :email: Email: [davidmackey@hey.com](mailto:davidmackey@hey.com)
     - :octocat: GitHub: [davidmichaelmackey](https://github.com/davidmichaelmackey/)
@@ -57,7 +55,7 @@
 
   ## License
 
-  License Type
+  
 
   ## Badges
 

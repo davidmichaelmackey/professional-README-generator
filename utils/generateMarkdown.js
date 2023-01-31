@@ -6,10 +6,10 @@ function generateMarkdown(data) {
 
   ${data.description}
 
-  - What was your motivation?
-  - Why did you build this project?
-  - What problem does it solve?
-  - What did you learn?
+  - What was your motivation? ${data.motivation}
+  - Why did you build this project? ${data.why}
+  - What problem does it solve? ${data.solution}
+  - What did you learn? ${data.learn}
 
   ## Table of Contents
 
@@ -48,7 +48,7 @@ function generateMarkdown(data) {
 
   ## License
 
-  License Type
+  ${data.license}
 
   ## Badges
 

@@ -44,6 +44,26 @@ const questions = [
     message: "Project Description:"
   },
   {
+    type: "input",
+    name: "motivation",
+    message: "What was your motivation?"
+  },
+  {
+    type: "input",
+    name: "why",
+    message: "Why did you build this project?"
+  },
+  {
+    type: "input",
+    name: "solution",
+    message: "What problem does it solve?"
+  },
+  {
+    type: "input",
+    name: "learn",
+    message: "What did you learn?"
+  },
+  {
     type: "checkbox",
     name: "sections",
     message: "Select Section(s):",
