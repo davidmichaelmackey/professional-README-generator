@@ -18,12 +18,9 @@ A command-line application that uses input from a user to dynamically generate a
 - [Tests](#tests)
 - [Deployment](#deployment)
 
+## Installation
+Follow these commands to run the command line application:  
 
-
-    ## Installation
-
-  Follow these commands to run the command line application:  
-      
     npm i inquirer@8.2.4
     npm start
 
@@ -51,7 +48,7 @@ n/a
 
   
 
-    ### Resources
+### Resources
 
     n/a
 
@@ -62,7 +59,7 @@ n/a
 
     </br>
     <p align="center">
-        <a href='https://opensource.org/licenses/EPL-1.0)'><img src='https://img.shields.io/badge/License-EPL%201.0-red?style=for-the-badge'  alt='Eclipse Public License' /></a>
+        <a href='https://www.gnu.org/licenses/gpl-3.0'><img src='https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge'  alt='GNU General Public License' /></a>
     </p>
 
     
