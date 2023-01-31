@@ -1,14 +1,21 @@
-// TODO: Include packages needed for this application
+// ! packages needed for this application
 
 const fs = require("fs");
 const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
 
-// TODO: Create an array of questions for user input
-inquirer.prompt([
+// ! array of questions for user input
+
+const questions = [
   {
     type: "input",
     name: "title",
     message: "Project Title:"
+  },
+  {
+    type: "input",
+    name: "repository",
+    message: "Repository Name:"
   },
   {
     type: "input",
@@ -17,24 +24,33 @@ inquirer.prompt([
   },
   {
     type: "checkbox",
-    name: "contents",
-    message: "Table of Contents"
+    name: "sections",
+    message: "Add Section(s):",
+    choices: [
+      new inquirer.Separator('{ Pick Section(s) }'),
+      {name: 'Installation'},
+      {name: 'Screenshot'},
+      {name: 'License'},
+    ]
   },
   {
     type: "input",
     name: "installation",
-    message: "Installation:"
+    message: "Installation:",
+    when: (data) => (data.sections.indexOf("installation") >= 0)
   },
   {
     type: "input",
     name: "Usage",
-    message: "Usage Information:"
+    message: "Usage Information:",
+    when: (data) => (data.sections.indexOf("screenshots") >= 0)
   },
   {
     type: "list",
     name: "license",
     message: "License Type:",
-    choices: ["MIT", "GPL", "Apache"]
+    choices: ["MIT", "Apache", "GPL"],
+    when: (data) => (data.sections.indexOf("license") >= 0)
   },
   {
     type: "input",
@@ -68,11 +84,22 @@ inquirer.prompt([
   },
 ]);
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+// ! function to write README file
 
-// TODO: Create a function to initialize app
-function init() { }
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, err => {
+    err ? console.log(err) : console.log("Created readme successfully");
+  });
+}
 
-// Function call to initialize app
+// ! function to initialize app
+
+function init() {
+  inquirer.prompt(questions).then(answers => {
+    writeToFile("NewREADME.md", generateMarkdown(answers));
+  });
+}
+
+// ! function call to initialize app
+
 init();
