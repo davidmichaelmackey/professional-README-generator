@@ -2,10 +2,11 @@
 
 ## Description
 
-- A command-line application that uses input from a user to dynamically generate a quality README for a GitHub project.
-- My motivation for this project was to learn Node.js a little bit better and to implement NPM packages in a real world use-case.
-- I built this project to dynamically generate a high-quality README. It truly speeds up the process, making it easy to create a README file without concern for Markdown formatting.
-- It really speeds up workflow.
+A command-line application that uses input from a user to dynamically generate a quality README for a GitHub project.
+<br>
+- 
+- 
+- 
 - 
 
 ## Table of Contents
@@ -25,7 +26,7 @@
 ## Installation
 
 
-  ## Installation
+
   Follow these commands to run the command line application:  
       
     npm i inquirer@8.2.4
@@ -33,13 +34,11 @@
 
 ## Usage
 
-![screenshot](assets/images/
 
-  ## Screenshot
 
   ![Usage](assets/images/screenshot)
 
-    .png)
+    
 
 ## Credits
 
@@ -47,9 +46,9 @@
 <br>
 :email: Email: [davidmackey@hey.com](mailto:davidmackey@hey.com)
 <br>
-:octocat: GitHub: [davidmichaelmackey](external.ink?to=https://github.com/davidmichaelmackey/)
+:octocat: GitHub: [davidmichaelmackey](https://github.com/davidmichaelmackey/)
 <br>
-:briefcase: Linkedin: [davidmichaelmackey](external.ink?to=https://linkedin.com/in/davidmichaelmackey/)
+:briefcase: Linkedin: [davidmichaelmackey](https://linkedin.com/in/davidmichaelmackey/)
 <br>
 
 ### Collaborators

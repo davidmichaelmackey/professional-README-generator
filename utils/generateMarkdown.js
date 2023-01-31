@@ -6,10 +6,10 @@ function generateMarkdown(data) {
 
 ${data.description}
 <br>
-- ${data.motivation}
-- ${data.why}
-- ${data.solution}
-- ${data.ilearned}
+// - ${data.motivation}
+// - ${data.why}
+// - ${data.solution}
+// - ${data.ilearned}
 
 ## Table of Contents
 
