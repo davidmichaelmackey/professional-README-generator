@@ -38,11 +38,21 @@ Follow these commands to run the command line application:
 
 ### Collaborators
 
-    Bruce Springsteen
+    Gary Gaston
 
-[https://shields.io/](### Resources
+function resources(resources) {
 
-    https://shields.io/)
+  if (resources) {
+    var commands = resources.split(",");
+    commands.forEach((c, index) => commands[index] = commands[index].trim());
+    return `### Resources
+
+    ${commands.join(`
+    `)}`;
+  }
+  else
+    return ``;
+}[https://shields.io/](https://shields.io/)
 
 ## License
 <p align = "center">
@@ -65,9 +75,9 @@ Follow these commands to run the command line application:
 ## Features
 
 <p align="center"><img src="https://img.shields.io/badge/-JS-grey?style=for-the-badge"  alt="JS" />
-      <img src="https://img.shields.io/badge/-NodeJS-grey?style=for-the-badge"  alt="NodeJS" />
-      <img src="https://img.shields.io/badge/-NPM-grey?style=for-the-badge"  alt="NPM" />
-      <img src="https://img.shields.io/badge/-Inquirer-grey?style=for-the-badge"  alt="Inquirer" />
+      <img src="https://img.shields.io/badge/- NodeJS-grey?style=for-the-badge"  alt=" NodeJS" />
+      <img src="https://img.shields.io/badge/- NPM-grey?style=for-the-badge"  alt=" NPM" />
+      <img src="https://img.shields.io/badge/- Inquirer-grey?style=for-the-badge"  alt=" Inquirer" />
       
 </p>
 
@@ -77,7 +87,7 @@ Follow these commands to run the command line application:
 
 ### Collaborators
 
-    Bruce Springsteen
+    Gary Gaston
 
 ## Tests
 

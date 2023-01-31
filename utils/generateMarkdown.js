@@ -35,7 +35,7 @@ ${screenshot(data.screenshot)}
 
 ${collaborators(data.collaborators)}
 
-[${data.resources}](${resources(data.resources)})
+${resources}[${data.resources}](${(data.resources)})
 
 ${license(data.license)}
 
