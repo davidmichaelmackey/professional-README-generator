@@ -72,7 +72,7 @@ const questions = [
   {
     type: "input",
     name: "installation",
-    message: "Installation Commands: (separate by comma)",
+    message: "Installation Commands... (separate by comma):",
     when: (data) => (data.sections.indexOf("Installation") >= 0)
   },
   {
@@ -84,8 +84,8 @@ const questions = [
   {
     type: "input",
     name: "toolset",
-    message: "Enter tools used separated by a comma (no spaces)",
-    default: "",
+    message: "Enter tools used... (separated by a comma, no spaces):",
+    // default: "",
     when: (data) => (data.sections.indexOf("Toolset") >= 0)
   },
   {

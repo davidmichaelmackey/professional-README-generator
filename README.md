@@ -1,7 +1,6 @@
 # <Professional README Generator>
 
 ## Description
-
 A command-line application that uses input from a user to dynamically generate a quality README for a GitHub project.
 
 ## Table of Contents
@@ -45,7 +44,7 @@ Follow these commands to run the command line application:
 <br>
 
 ### Collaborators
-
+n/a
 
 ### Resources
 
@@ -53,7 +52,7 @@ Follow these commands to run the command line application:
 
 ## License
 <p align = "center">
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-A31F34?style=for-the-badge" alt="MIT License"/></a>
+  <a href="https://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache-4543AA?style=for-the-badge" alt="Apache License"/></a>
 </p>
 
 ## Badges
@@ -72,9 +71,16 @@ Follow these commands to run the command line application:
 
 ## Features
 
-- 
+### Built With
 
-## How to Contribute
+<p align="center"><img src="https://img.shields.io/badge/-JS-lightgrey?style=for-the-badge"  alt="JS" />
+      <img src="https://img.shields.io/badge/-NodeJS-lightgrey?style=for-the-badge"  alt="NodeJS" />
+      <img src="https://img.shields.io/badge/-NPM-lightgrey?style=for-the-badge"  alt="NPM" />
+      <img src="https://img.shields.io/badge/-Inquirer-lightgrey?style=for-the-badge"  alt="Inquirer" />
+      
+</p>
+
+## Contributors
 
 [Contributor Covenant](https://www.contributor-covenant.org/)
 
