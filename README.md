@@ -38,12 +38,13 @@ Follow these commands to run the command line application:
 
 ### Collaborators
 
-    Michael Jackson
+    Test1
+    Test2
+    Test3
 
 ### Resources
 
     https://shields.io/
-    https://developer.mozilla.org/en-US/
 
 ## License
 <p align = "center">
@@ -63,12 +64,14 @@ Follow these commands to run the command line application:
   <img src="https://img.shields.io/github/followers/davidmichaelmackey?style=for-the-badge" alt="Followers" />
 </p>
 
-## Features
-
-<p align="center"><img src="https://img.shields.io/badge/-JS-grey?style=for-the-badge"  alt="JS" />
-      <img src="https://img.shields.io/badge/- NodeJS-grey?style=for-the-badge"  alt=" NodeJS" />
-      <img src="https://img.shields.io/badge/- NPM-grey?style=for-the-badge"  alt=" NPM" />
-      <img src="https://img.shields.io/badge/- Inquirer-grey?style=for-the-badge"  alt=" Inquirer" />
+<p align="center">## Toolset
+      <img src="https://img.shields.io/badge/-JS-grey?style=for-the-badge"  alt="JS" />
+      ## Toolset
+      <img src="https://img.shields.io/badge/-NodeJS-grey?style=for-the-badge"  alt="NodeJS" />
+      ## Toolset
+      <img src="https://img.shields.io/badge/-NPM-grey?style=for-the-badge"  alt="NPM" />
+      ## Toolset
+      <img src="https://img.shields.io/badge/-Inquirer-grey?style=for-the-badge"  alt="Inquirer" />
       
 </p>
 
@@ -76,12 +79,12 @@ Follow these commands to run the command line application:
 
 [Contributor Covenant](https://www.contributor-covenant.org/)
 
-### Collaborators
+## Tests
 
-    Michael Jackson
-
-
+    n/a
 
 ## Questions
 
-📇 Please, feel free send me an [Email](mailto:davidmackey@hey.com) or reach out to me on [Linkedin](https://linkedin.com/in/davidmichaelmackey/).
+Have Questions?
+Please feel free send me an [email](mailto:davidmackey@hey.com) or reach out to me on [Linkedin](https://linkedin.com/in/davidmichaelmackey/).
+

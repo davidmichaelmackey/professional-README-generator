@@ -52,21 +52,19 @@ ${license(data.license)}
   <img src="https://img.shields.io/github/followers/${data.github}?style=for-the-badge" alt="Followers" />
 </p>
 
-## Features
-
-${builtWith(data.toolset)}
+${toolset(data.toolset)}
 
 ## Contribute
 
 [Contributor Covenant](https://www.contributor-covenant.org/)
 
-${collaborators(data.collaborators)}
-
 ${tests(data.tests)}
 
 ## Questions
 
-📇 Please, feel free send me an [Email](mailto:${data.email}) or reach out to me on [Linkedin](https://linkedin.com/in/${data.linkedin}/).
+Have Questions?
+Please feel free send me an [email](mailto:${data.email}) or reach out to me on [Linkedin](https://linkedin.com/in/${data.linkedin}/).
+
 `
   return readme;
 }
@@ -164,12 +162,13 @@ function resources(resources) {
 // ! function for badges |
 // !=====================|
 
-function builtWith(tools) {
+function toolset(tools) {
   if (tools) {
-    tools = tools.split(",");
+    tools = tools.split(", ");
     let res = `<p align="center">`;
     tools.forEach(tool => {
-      res += `<img src="https://img.shields.io/badge/-${tool}-grey?style=for-the-badge"  alt="${tool}" />
+      res += `## Toolset
+      <img src="https://img.shields.io/badge/-${tool}-grey?style=for-the-badge"  alt="${tool}" />
       `;
     });
     res += `

@@ -14,7 +14,7 @@ const questions = [
   {
     type: "input",
     name: "creator",
-    message: "Name:"
+    message: "Creator's Name:"
   },
   {
     type: "input",
@@ -49,12 +49,12 @@ const questions = [
   {
     type: "input",
     name: "collaborators",
-    message: "Collaborators: (if any)",
+    message: "Collaborators (if any):",
   },
   {
     type: "input",
     name: "resources",
-    message: "Resources: (separate by comma)"
+    message: "Resources (separate by comma):"
   },
   {
     type: "checkbox",
@@ -71,7 +71,7 @@ const questions = [
   {
     type: "input",
     name: "installation",
-    message: "Installation Commands... (separate by comma):",
+    message: "Installation Commands (separate by comma):",
     when: (data) => (data.sections.indexOf("Installation") >= 0)
   },
   {
@@ -83,7 +83,7 @@ const questions = [
   {
     type: "input",
     name: "toolset",
-    message: "Enter tools used... (separated by a comma):",
+    message: "Enter tools used (separate by comma):",
     // default: "",
     when: (data) => (data.sections.indexOf("Toolset") >= 0)
   },
@@ -138,7 +138,7 @@ const questions = [
   {
     type: "input",
     name: "tests",
-    message: "Tests:"
+    message: "Tests (if any):"
   }
 ];
 
