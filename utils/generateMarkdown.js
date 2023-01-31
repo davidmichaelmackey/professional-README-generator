@@ -66,7 +66,7 @@ ${collaborators(data.collaborators)}
 
 ${data.tests}
 
-## Questions ?
+## Questions
 
 📇 Please, feel free send me an [Email](mailto:${data.email}) or reach out to me on [Linkedin](https://linkedin.com/in/${data.linkedin}/).
 `
