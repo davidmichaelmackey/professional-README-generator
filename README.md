@@ -1,21 +1,21 @@
 
-# { Professional README Generator }
+# { d }
 
 ## Badges
 
 <p align="center">
-  <img src="https://img.shields.io/github/languages/count/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Languages" />
-  <img src="https://img.shields.io/github/languages/top/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Top Language" />
-  <img src="https://img.shields.io/github/package-json/dependency-version/davidmichaelmackey/professional-readme-generator/inquirer?style=for-the-badge" alt="Inquirer Version" />
-  <img src="https://img.shields.io/github/last-commit/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Last Commit" />
-  <img src="https://img.shields.io/github/languages/code-size/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Code Size" />
-  <img src="https://img.shields.io/github/repo-size/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Repo Size" />
-  <img src="https://img.shields.io/github/issues/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Issues" />
-  <img src="https://img.shields.io/github/followers/davidmichaelmackey?style=for-the-badge" alt="Followers" />
+  <img src="https://img.shields.io/github/languages/count/d/d?style=for-the-badge" alt="Languages" />
+  <img src="https://img.shields.io/github/languages/top/d/d?style=for-the-badge" alt="Top Language" />
+  <img src="https://img.shields.io/github/package-json/dependency-version/d/d/inquirer?style=for-the-badge?logo=npm" alt="Inquirer Version" />
+  <img src="https://img.shields.io/github/languages/code-size/d/d?style=for-the-badge" alt="Code Size" />
+  <img src="https://img.shields.io/github/repo-size/d/d?style=for-the-badge" alt="Repo Size" />
+  <img src="https://img.shields.io/github/last-commit/d/d?style=for-the-badge" alt="Last Commit" />
+  <img src="https://img.shields.io/github/issues/d/d?style=for-the-badge" alt="Issues" />
+  <img src="https://img.shields.io/github/followers/d?style=social" alt="Followers" />
 </p>
 
 ## Description
-A command-line application that uses input from a user to dynamically generate a quality README for a GitHub project.
+d
 
 ## Table of Contents
 
@@ -27,49 +27,32 @@ A command-line application that uses input from a user to dynamically generate a
 - [Tests](#tests)
 - [Questions](#questions)
 
-## Installation
-Follow these commands to run the command line application:  
 
-    npm i
-    npm start
 
 ## Usage
 
 
 
-  ![Usage](assets/images/screenshot.png)
-
-    
-
 ## Credits
 
-:bust_in_silhouette: Creator: David Mackey<br>
-:email: Email: [davidmackey@hey.com](mailto:davidmackey@hey.com)<br>
-:octocat: GitHub: [davidmichaelmackey](https://github.com/davidmichaelmackey/)<br>
-:briefcase: Linkedin: [davidmichaelmackey](https://linkedin.com/in/davidmichaelmackey/)<br>
+:bust_in_silhouette: Creator: d<br>
+:email: Email: [d](mailto:d)<br>
+:octocat: GitHub: [d](https://github.com/d/)<br>
+:briefcase: Linkedin: [d](https://linkedin.com/in/d/)<br>
 
+### Collaborators
 
+    d
 
 ### Resources
 
-    JS
-    NodeJS
-    NPM
-    Inquirer
+    d
 
 ## Toolset
 
-<p align="center"><img src="https://img.shields.io/badge/-JS-grey?style=for-the-badge"  alt="JS" />
-      <img src="https://img.shields.io/badge/-NodeJS-grey?style=for-the-badge"  alt="NodeJS" />
-      <img src="https://img.shields.io/badge/-NPM-grey?style=for-the-badge"  alt="NPM" />
-      <img src="https://img.shields.io/badge/-Inquirer-grey?style=for-the-badge"  alt="Inquirer" />
-      
-</p>
 
-## License
-<p align = "center">
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-A31F34?style=for-the-badge" alt="MIT License"/></a>
-</p>
+
+undefined
 
 ## Contribute
 
@@ -82,5 +65,5 @@ n/a
 ## Questions
 
 Have Questions?
-Please feel free send me an [email](mailto:davidmackey@hey.com) or reach out to me on [Linkedin](https://linkedin.com/in/davidmichaelmackey/).
+Please feel free send me an [email](mailto:d) or reach out to me on [Linkedin](https://linkedin.com/in/d/).
 
