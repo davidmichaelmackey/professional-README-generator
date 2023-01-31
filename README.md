@@ -1,7 +1,7 @@
-# <Professional README Generator>
+# <bing bong test>
 
 ## Description
-A command-line application that uses input from a user to dynamically generate a quality README for a GitHub project.
+lorem ipsum
 
 ## Table of Contents
 
@@ -17,7 +17,12 @@ A command-line application that uses input from a user to dynamically generate a
 - [Tests](#tests)
 - [Deployment](#deployment)
 
+## Installation
 
+Follow these commands to run the command line application:  
+
+    npm i
+    npm start
 
 ## Usage
 
@@ -25,9 +30,9 @@ A command-line application that uses input from a user to dynamically generate a
 
 ## Credits
 
-:bust_in_silhouette: Creator: David Mackey
+:bust_in_silhouette: Creator: test
 <br>
-:email: Email: [davidmackey@hey.com](mailto:davidmackey@hey.com)
+:email: Email: [test@gmail.com](mailto:test@gmail.com)
 <br>
 :octocat: GitHub: [davidmichaelmackey](https://github.com/davidmichaelmackey/)
 <br>
@@ -36,11 +41,13 @@ A command-line application that uses input from a user to dynamically generate a
 
 
 
-[]()
+[shields.io](### Resources
+
+    shields.io)
 
 ## License
 <p align = "center">
-  <a href="https://opensource.org/licenses/EPL-1.0)"><img src="https://img.shields.io/badge/License-EPL-E89940?style=for-the-badge" alt="Eclipse Public License"/></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-A31F34?style=for-the-badge" alt="MIT License"/></a>
 </p>
 
 ## Badges
@@ -76,6 +83,6 @@ A command-line application that uses input from a user to dynamically generate a
 
 
 
-## Questions
+## Questions ?
 
-Please, feel free send me an [email](mailto:davidmackey@hey.com) me or reach out to me on [GitHub](https://github.com/davidmichaelmackey/ or [Linkedin](https://linkedin.com/in/davidmichaelmackey/.)
+Please, feel free send me an [email](mailto:test@gmail.com) me or reach out to me on [GitHub](https://github.com/davidmichaelmackey/) or [Linkedin](https://linkedin.com/in/davidmichaelmackey/).
