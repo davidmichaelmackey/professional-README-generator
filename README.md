@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/github/languages/code-size/davidmichaelmackey/professional-readme-generator?color=45dc81&style=for-the-badge" alt="Code Size" />
   <img src="https://img.shields.io/github/repo-size/davidmichaelmackey/professional-readme-generator?color=7ad0ed&style=for-the-badge" alt="Repo Size" />
   <img src="https://img.shields.io/github/last-commit/davidmichaelmackey/professional-readme-generator?color=34A853&style=for-the-badge" alt="Last Commit" />
-  <img src="https://img.shields.io/github/issues/davidmichaelmackey/professional-readme-generator?colors=FE5000&style=for-the-badge" alt="Issues" />
+  <img src="https://img.shields.io/github/issues/davidmichaelmackey/professional-readme-generator?color=FE5000&style=for-the-badge" alt="Issues" />
   <img src="https://img.shields.io/github/followers/davidmichaelmackey?style=for-the-badge" alt="Followers" />
 </p>
 
@@ -61,8 +61,8 @@ Follow these commands to run the command line application:
 <p align="center"><img src="https://img.shields.io/badge/-JS-grey?style=for-the-badge"  alt="JS" />
       <img src="https://img.shields.io/badge/-NodeJS-grey?style=for-the-badge"  alt="NodeJS" />
       <img src="https://img.shields.io/badge/-NPM-grey?style=for-the-badge"  alt="NPM" />
-      <img src="https://img.shields.io/badge/-CLI-grey?style=for-the-badge"  alt="CLI" />
       <img src="https://img.shields.io/badge/-Inquirer-grey?style=for-the-badge"  alt="Inquirer" />
+      <img src="https://img.shields.io/badge/-CLI-grey?style=for-the-badge"  alt="CLI" />
       
 </p>
 
