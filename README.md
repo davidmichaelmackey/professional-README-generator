@@ -5,8 +5,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/languages/count/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Languages" />
-  <img src="https://img.shields.io/github/languages/top/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Top Language" />
-  <img src="https://img.shields.io/github/package-json/dependency-version/davidmichaelmackey/professional-readme-generator/inquirer?style=for-the-badge?logo=npm" alt="Inquirer Version" />
+  <img src="https://img.shields.io/github/languages/top/davidmichaelmackey/professional-readme-generator?color=f7df1e&style=for-the-badge" alt="Top Language" />
+  <img src="https://img.shields.io/github/package-json/dependency-version/davidmichaelmackey/professional-readme-generator/inquirer?style=for-the-badge&logo=npm" alt="Inquirer Version" />
   <img src="https://img.shields.io/github/languages/code-size/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Code Size" />
   <img src="https://img.shields.io/github/repo-size/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Repo Size" />
   <img src="https://img.shields.io/github/last-commit/davidmichaelmackey/professional-readme-generator?style=for-the-badge" alt="Last Commit" />
