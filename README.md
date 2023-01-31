@@ -25,7 +25,7 @@ A command-line application that uses input from a user to dynamically generate a
 
 
 
-  ![Usage](assets/images/screenshot.gif)
+  ![Usage](assets/images/screenshot.png)
 
     
 
@@ -36,9 +36,7 @@ A command-line application that uses input from a user to dynamically generate a
 :octocat: GitHub: [davidmichaelmackey](https://github.com/davidmichaelmackey/)<br>
 :briefcase: Linkedin: [davidmichaelmackey](https://linkedin.com/in/davidmichaelmackey/)<br>
 
-## Collaborators
 
-    Test Collaborator
 
 <!--- [https://shields.io/](### Resources
 
@@ -62,8 +60,6 @@ A command-line application that uses input from a user to dynamically generate a
   <img src="https://img.shields.io/github/followers/davidmichaelmackey?style=social" alt="Followers" />
 </p>
 
-### Built With
-
 <p align="center"><img src="https://img.shields.io/badge/-JS-lightgrey?style=for-the-badge"  alt="JS" />
       <img src="https://img.shields.io/badge/-NodeJS-lightgrey?style=for-the-badge"  alt="NodeJS" />
       <img src="https://img.shields.io/badge/-NPM-lightgrey?style=for-the-badge"  alt="NPM" />
@@ -73,11 +69,11 @@ A command-line application that uses input from a user to dynamically generate a
 
 ## Features
 
-## Collaborators
-
-    Test Collaborator
+## Contribute
 
 [Contributor Covenant](https://www.contributor-covenant.org/)
+
+
 
 ## Tests
 

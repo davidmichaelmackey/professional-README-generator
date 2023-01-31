@@ -55,9 +55,11 @@ ${builtWith(data.toolset)}
 
 ## Features
 
-${collaborators(data.collaborators)}
+## Contribute
 
 [Contributor Covenant](https://www.contributor-covenant.org/)
+
+${collaborators(data.collaborators)}
 
 ## Tests
 
@@ -115,7 +117,7 @@ function collaborators(collaborators) {
   if (collaborators) {
     var commands = collaborators.split(",");
     commands.forEach((c, index) => commands[index] = commands[index].trim());
-    return `## Collaborators
+    return `### Collaborators
 
     ${commands.join(`
     `)}`;
@@ -149,20 +151,14 @@ function resources(resources) {
 function builtWith(tools) {
   if (tools) {
     tools = tools.split(",");
-    let res = `### Built With
-
-<p align="center">`;
-
+    let res = `<p align="center">`;
     tools.forEach(tool => {
       res += `<img src="https://img.shields.io/badge/-${tool}-lightgrey?style=for-the-badge"  alt="${tool}" />
       `;
     });
-
     res += `
 </p>`;
-
     return res;
-
   }
   else {
     return ``;
@@ -176,7 +172,6 @@ function builtWith(tools) {
 function license(license) {
   if (license) {
     let licenseBadges = [
-      // '- free license',
       {
         href: "#",
         src: 'https://img.shields.io/badge/License-Free_License-yellow?style=for-the-badge',
@@ -227,7 +222,6 @@ function license(license) {
         src: 'https://img.shields.io/badge/License-Other-lightgrey?style=for-the-badge',
         alt: 'Other License'
       }
-
     ];
     return `## License
 <p align = "center">
