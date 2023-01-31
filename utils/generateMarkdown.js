@@ -102,6 +102,10 @@ Follow these commands to run the command line application:
     return ``;
 }
 
+// !========================|
+// ! function for resources |
+// !========================|
+
 function resources(resources) {
 
   if (resources) {
@@ -122,31 +126,32 @@ function resources(resources) {
 // ! function for badges |
 // !=====================|
 
-// function builtWith(tools) {
-//   if (tools) {
-//     tools = tools.split(",");
-//     let res = `
-//   ### Built With
-//   </br>
-//   <p align="center">
-//   `;
+function builtWith(tools) {
+  if (tools) {
+    tools = tools.split(",");
+    let res = `
+  ### Built With
+  </br>
+  <p align="center">
+  `;
 
-//     tools.forEach(tool => {
-//       res += `<img src="https://img.shields.io/badge/-${tool}-orange?style=for-the-badge"  alt="${tool}" />
-//       `;
-//     });
+    tools.forEach(tool => {
+      res += `<img src="https://img.shields.io/badge/-${tool}-lightgrey?style=for-the-badge"  alt="${tool}" />
+      `;
+    });
 
-//     res += `
-//   </p>
-//   `;
+    res += `
+  </p>
+  `;
 
-//     return res;
+    return res;
 
-//   }
-//   else {
-//     return ``;
-//   }
-// }
+  }
+  else {
+    return ``;
+  }
+}
+
 // !=========================|
 // ! function for screenshot |
 // !=========================|
