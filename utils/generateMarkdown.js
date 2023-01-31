@@ -6,6 +6,19 @@ function generateMarkdown(data) {
   let readme = `
 # { ${data.title} }
 
+## Badges
+
+<p align="center">
+  <img src="https://img.shields.io/github/languages/count/${data.github}/${data.repository}?style=for-the-badge" alt="Languages" />
+  <img src="https://img.shields.io/github/languages/top/${data.github}/${data.repository}?style=for-the-badge" alt="Top Language" />
+  <img src="https://img.shields.io/github/languages/code-size/${data.github}/${data.repository}?style=for-the-badge" alt="Code Size" />
+  <img src="https://img.shields.io/github/repo-size/${data.github}/${data.repository}?style=for-the-badge" alt="Repo Size" />
+  <img src="https://img.shields.io/github/package-json/dependency-version/${data.github}/${data.repository}/inquirer?style=for-the-badge" alt="Inquirer Version" />
+  <img src="https://img.shields.io/github/last-commit/${data.github}/${data.repository}?style=for-the-badge" alt="Last Commit" />
+  <img src="https://img.shields.io/github/issues/${data.github}/${data.repository}?style=for-the-badge" alt="Issues" />
+  <img src="https://img.shields.io/github/followers/${data.github}?style=for-the-badge" alt="Followers" />
+</p>
+
 ## Description
 ${data.description}
 
@@ -38,24 +51,15 @@ ${resources(data.resources)}
 
 ${license(data.license)}
 
-## Badges
-
-<p align="center">
-  <img src="https://img.shields.io/github/languages/count/${data.github}/${data.repository}?style=for-the-badge" alt="Languages" />
-  <img src="https://img.shields.io/github/languages/top/${data.github}/${data.repository}?style=for-the-badge" alt="Top Language" />
-  <img src="https://img.shields.io/github/languages/code-size/${data.github}/${data.repository}?style=for-the-badge" alt="Code Size" />
-  <img src="https://img.shields.io/github/repo-size/${data.github}/${data.repository}?style=for-the-badge" alt="Repo Size" />
-  <img src="https://img.shields.io/github/package-json/dependency-version/${data.github}/${data.repository}/inquirer?style=for-the-badge" alt="Inquirer Version" />
-  <img src="https://img.shields.io/github/last-commit/${data.github}/${data.repository}?style=for-the-badge" alt="Last Commit" />
-  <img src="https://img.shields.io/github/issues/${data.github}/${data.repository}?style=for-the-badge" alt="Issues" />
-  <img src="https://img.shields.io/github/followers/${data.github}?style=for-the-badge" alt="Followers" />
-</p>
+## Toolset
 
 ${toolset(data.toolset)}
 
 ## Contribute
 
 [Contributor Covenant](https://www.contributor-covenant.org/)
+
+## Tests
 
 ${tests(data.tests)}
 
@@ -130,13 +134,13 @@ function tests(tests) {
   if (tests) {
     var commands = tests.split(",");
     commands.forEach((c, index) => commands[index] = commands[index].trim());
-    return `## Tests
+    return `
 
     ${commands.join(`
     `)}`;
   }
   else
-    return ``;
+    return `n/a`;
 }
 
 // !========================|
@@ -164,8 +168,7 @@ function resources(resources) {
 function toolset(tools) {
   if (tools) {
     tools = tools.split(", ");
-    let res = `## Toolset
-    <p align="center">`;
+    let res = `<p align="center">`;
     tools.forEach(tool => {
       res += `<img src="https://img.shields.io/badge/-${tool}-grey?style=for-the-badge"  alt="${tool}" />
       `;
