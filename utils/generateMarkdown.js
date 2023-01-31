@@ -18,7 +18,7 @@ ${data.description}
 - [Features](#features)
 - [Contribute](#contribute)
 - [Tests](#tests)
-- [Deployment](#deployment)
+- [Questions](#questions)
 
 ${installation(data.installation)}
 
