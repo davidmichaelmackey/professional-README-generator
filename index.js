@@ -1,11 +1,15 @@
-// ! packages needed for this application
+// !======================================|
+// ! packages needed for this application |
+// !======================================|
 
 const fs = require("fs");
 const inquirer = require("inquirer");
 const util = require("util");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// ! array of questions for user input
+// !===================================|
+// ! array of questions for user input |
+// !===================================|
 
 const questions = [
   {
@@ -139,7 +143,9 @@ const questions = [
   }
 ];
 
-// ! function to write README file
+// !===============================|
+// ! function to write README file |
+// !===============================|
 
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, err => {
@@ -147,14 +153,17 @@ function writeToFile(fileName, data) {
   });
 }
 
-// ! function to initialize app
+// !============================|
+// ! function to initialize app |
+// !============================|
 
 function init() {
   inquirer.prompt(questions).then(answers => {
     writeToFile("README.md", generateMarkdown(answers));
   });
 }
-
-// ! function call to initialize app
+// !=================================|
+// ! function call to initialize app |
+// !=================================|
 
 init();
