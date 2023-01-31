@@ -1,4 +1,7 @@
-// ! function to generate markdown for README
+// !==========================================|
+// ! function to generate markdown for README |
+// !==========================================|
+
 function generateMarkdown(data) {
   let readme = `# <${data.title}>
 
@@ -80,7 +83,9 @@ ${data.tests}
   return readme;
 }
 
-// ! function for installation
+// !===========================|
+// ! function for installation |
+// !===========================|
 
 function installation(installation) {
 
@@ -113,7 +118,9 @@ function resources(resources) {
     return ``;
 }
 
-// ! function for badges
+// !=====================|
+// ! function for badges |
+// !=====================|
 
 // function builtWith(tools) {
 //   if (tools) {
@@ -140,8 +147,9 @@ function resources(resources) {
 //     return ``;
 //   }
 // }
-
-// ! function for screenshot
+// !=========================|
+// ! function for screenshot |
+// !=========================|
 
 function screenshot(screenshot) {
   if (screenshot) {
@@ -154,8 +162,9 @@ function screenshot(screenshot) {
     return ``;
   }
 }
-
-// ! function for license
+// !======================|
+// ! function for license |
+// !======================|
 
 function license(license) {
   if (license) {
@@ -219,5 +228,9 @@ function license(license) {
 </p>`
   }
 }
+
+// !================|
+// ! module exports |
+// !================|
 
 module.exports = generateMarkdown;
