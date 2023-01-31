@@ -27,7 +27,7 @@ const questions = [
     name: "sections",
     message: "Add Section(s):",
     choices: [
-      new inquirer.Separator('{ Pick Section(s) }'),
+      new inquirer.Separator(' = Pick Section(s) = '),
       {name: 'Installation'},
       {name: 'Screenshot'},
       {name: 'License'},
@@ -36,26 +36,34 @@ const questions = [
   {
     type: "input",
     name: "installation",
-    message: "Installation:",
+    message: "Installation Commands: (separate by comma)",
     when: (data) => (data.sections.indexOf("installation") >= 0)
   },
   {
     type: "input",
-    name: "Usage",
-    message: "Usage Information:",
+    name: "screenshot",
+    message: "Screenshot Filename:",
     when: (data) => (data.sections.indexOf("screenshots") >= 0)
   },
   {
-    type: "list",
-    name: "license",
-    message: "License Type:",
-    choices: ["MIT", "Apache", "GPL"],
-    when: (data) => (data.sections.indexOf("license") >= 0)
+    type: "input",
+    name: "creator",
+    message: "Creator's Name:"
   },
   {
     type: "input",
-    name: "contributing",
-    message: "Contributing:"
+    name: "email",
+    message: "Email Address:"
+  },
+  {
+    type: "input",
+    name: "github",
+    message: "GitHub Username:"
+  },
+  {
+    type: "input",
+    name: "linkedin",
+    message: "Linkedin Username:"
   },
   {
     type: "input",
@@ -63,26 +71,54 @@ const questions = [
     message: "Test:"
   },
   {
-    type: "",
-    name: "",
-    message: ""
-  },
-  {
-    type: "",
-    name: "",
-    message: ""
-  },
-  {
-    type: "",
-    name: "",
-    message: ""
-  },
-  {
-    type: "",
-    name: "",
-    message: ""
-  },
-]);
+    type: "list",
+    name: "license",
+    message: "License Type:",
+    choices: [
+      {
+        name: "none",
+        value: 0
+      },
+      {
+        name: "General Public License",
+        value: 1
+      },
+      {
+        name: "Apache License",
+        value: 2
+      },
+      {
+        name: "Microsoft Public License",
+        value: 3
+      },
+      {
+        name: "Berkeley Software Distribution",
+        value: 4
+      },
+      {
+        name: "Common Development & Distribution License",
+        value: 5
+      },
+      {
+        name: "Eclipse Public License",
+        value: 6
+      },
+      {
+        name: "MIT License",
+        value: 7
+      },
+      {
+        name: "Mozilla Public License",
+        value: 8
+      },
+      {
+        name: "Other",
+        value: 9
+      }
+    ],
+    when: (data) => (data.sections.indexOf("license") >= 0)
+  }
+];
 
 // ! function to write README file
 
