@@ -9,13 +9,13 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
   {
     type: "input",
-    name: "title",
-    message: "Project Title:"
+    name: "repository",
+    message: "Repository Name:"
   },
   {
     type: "input",
-    name: "repository",
-    message: "Repository Name:"
+    name: "title",
+    message: "Project Title:"
   },
   {
     type: "input",
