@@ -43,8 +43,7 @@ Follow these commands to run the command line application:
 :briefcase:  Linkedin: [davidmichaelmackey](https://linkedin.com/in/davidmichaelmackey/)
 <br>
 
-### Collaborators
-n/a
+
 
 ### Resources
 
@@ -52,7 +51,7 @@ n/a
 
 ## License
 <p align = "center">
-  <a href="https://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache-4543AA?style=for-the-badge" alt="Apache License"/></a>
+  <a href="https://opensource.org/licenses/MPL-2.0"><img src="https://img.shields.io/badge/License-MPL-E66000?style=for-the-badge" alt="Mozilla Public License"/></a>
 </p>
 
 ## Badges
@@ -88,8 +87,6 @@ n/a
 
 n/a
 
-## Deployment
+## Questions
 
-[Deployment Page](https://davidmichaelmackey.github.io/professional-readme-generator)
 
-  

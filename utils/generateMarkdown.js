@@ -39,8 +39,7 @@ ${screenshot(data.screenshot)}
 :briefcase:  Linkedin: [${data.linkedin}](https://linkedin.com/in/${data.linkedin}/)
 <br>
 
-### Collaborators
-${data.collaborators}
+${collaborators(data.collaborators)}
 
 ${resources(data.resources)}
 
@@ -72,11 +71,10 @@ ${builtWith(data.toolset)}
 
 ${data.tests}
 
-## Deployment
+## Questions
 
-[Deployment Page](https://${data.github}.github.io/${data.repository})
 
-  `
+`
   return readme;
 }
 
@@ -110,6 +108,24 @@ function resources(resources) {
     var commands = resources.split(",");
     commands.forEach((c, index) => commands[index] = commands[index].trim());
     return `### Resources
+
+    ${commands.join(`
+    `)}`;
+  }
+  else
+    return ``;
+}
+
+// !============================|
+// ! function for collaborators |
+// !============================|
+
+function collaborators(collaborators) {
+
+  if (collaborators) {
+    var commands = collaborators.split(",");
+    commands.forEach((c, index) => commands[index] = commands[index].trim());
+    return `### Collaborators
 
     ${commands.join(`
     `)}`;
