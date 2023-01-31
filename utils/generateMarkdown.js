@@ -30,18 +30,18 @@ ${screenshot(data.screenshot)}
 
 ## Credits
 
-:bust_in_silhouette:  Creator: ${data.creator}
+:bust_in_silhouette: Creator: ${data.creator}
 <br>
-:email:  Email: [${data.email}](mailto:${data.email})
+:email: Email: [${data.email}](mailto:${data.email})
 <br>
-:octocat:  GitHub: [${data.github}](https://github.com/${data.github}/)
+:octocat: GitHub: [${data.github}](https://github.com/${data.github}/)
 <br>
-:briefcase:  Linkedin: [${data.linkedin}](https://linkedin.com/in/${data.linkedin}/)
+:briefcase: Linkedin: [${data.linkedin}](https://linkedin.com/in/${data.linkedin}/)
 <br>
 
 ${collaborators(data.collaborators)}
 
-${resources(data.resources)}
+[${data.resources}](${resources(data.resources)})
 
 ${license(data.license)}
 
