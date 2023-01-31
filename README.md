@@ -4,9 +4,9 @@
 ## Badges
 
 <p align="center">
+  <img src="https://img.shields.io/github/package-json/dependency-version/davidmichaelmackey/professional-readme-generator/inquirer?color=CC3534&style=for-the-badge&logo=npm" alt="Inquirer Version" />
   <img src="https://img.shields.io/github/languages/count/davidmichaelmackey/professional-readme-generator?color=FF9AA2&style=for-the-badge" alt="Languages" />
   <img src="https://img.shields.io/github/languages/top/davidmichaelmackey/professional-readme-generator?color=FFB7B2&style=for-the-badge" alt="Top Language" />
-  <img src="https://img.shields.io/github/package-json/dependency-version/davidmichaelmackey/professional-readme-generator/inquirer?color=CC3534&style=for-the-badge&logo=npm" alt="Inquirer Version" />
   <img src="https://img.shields.io/github/languages/code-size/davidmichaelmackey/professional-readme-generator?color=FFDAC1&style=for-the-badge" alt="Code Size" />
   <img src="https://img.shields.io/github/repo-size/davidmichaelmackey/professional-readme-generator?color=E2F0CB&style=for-the-badge" alt="Repo Size" />
   <img src="https://img.shields.io/github/last-commit/davidmichaelmackey/professional-readme-generator?color=B5EAD7&style=for-the-badge" alt="Last Commit" />
@@ -82,5 +82,6 @@ n/a
 ## Questions
 
 Have Questions?
-Please feel free send me an [email](mailto:davidmackey@hey.com) or reach out to me on [Linkedin](https://linkedin.com/in/davidmichaelmackey/).
+<br>
+Feel free send me an [email](mailto:davidmackey@hey.com) or reach out to me on [Linkedin](https://linkedin.com/in/davidmichaelmackey/).
 
