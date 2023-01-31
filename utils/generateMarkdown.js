@@ -160,68 +160,63 @@ function screenshot(screenshot) {
 function license(license) {
   if (license) {
     let licenseBadges = [
-      '- free license',
+      // '- free license',
       {
         href: "#",
-        src: 'https://img.shields.io/badge/-Free_License-orange?style=for-the-badge',
+        src: 'https://img.shields.io/badge/License-Free_License-yellow?style=for-the-badge',
         alt: 'Free License'
       },
       {
         href: "https://www.gnu.org/licenses/gpl-3.0",
-        src: 'https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge',
-        alt: 'GNU General Public License'
+        src: 'https://img.shields.io/badge/License-GPL-BD0100?style=for-the-badge',
+        alt: 'General Public License'
       },
       {
-        href: "https://opensource.org/licenses/MIT",
-        src: 'https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge',
-        alt: 'MIT License'
+        href: "https://www.apache.org/licenses/LICENSE-2.0",
+        src: 'https://img.shields.io/badge/License-Apache-4543AA?style=for-the-badge',
+        alt: 'Apache License'
       },
       {
-        href: "https://opensource.org/licenses/BSD-2-Clause",
-        src: 'https://img.shields.io/badge/License-BSD%202--Clause-orange?style=for-the-badge',
-        alt: 'BSD 2-Clause "Simplified" License'
+        href: "https://opensource.org/licenses/MS-PL",
+        src: 'https://img.shields.io/badge/License-MsPL-00A4EF?style=for-the-badge',
+        alt: 'Microsoft Public License'
       },
       {
-        href: "https://www.boost.org/LICENSE_1_0.txt)",
-        src: 'https://img.shields.io/badge/License-Boost%201.0-lightblue?style=for-the-badge',
-        alt: 'Boost Software License 1.0 License'
+        href: "https://en.wikipedia.org/wiki/BSD_licenses",
+        src: 'https://img.shields.io/badge/License-BSD-003262?style=for-the-badge',
+        alt: 'Berkeley Software Distribution'
       },
       {
-        href: "http://creativecommons.org/publicdomain/zero/1.0/)",
-        src: 'https://img.shields.io/badge/License-CC0%201.0-lightgrey?style=for-the-badge',
-        alt: 'Creative Commons Zero v1.0 Universal License'
+        href: "https://en.wikipedia.org/wiki/Common_Development_and_Distribution_License",
+        src: 'https://img.shields.io/badge/License-CDDL-5F81A0?style=for-the-badge',
+        alt: 'Common Development & Distribution License'
       },
       {
         href: "https://opensource.org/licenses/EPL-1.0)",
-        src: 'https://img.shields.io/badge/License-EPL%201.0-red?style=for-the-badge',
+        src: 'https://img.shields.io/badge/License-EPL-E89940?style=for-the-badge',
         alt: 'Eclipse Public License'
       },
       {
+        href: "https://opensource.org/licenses/MIT",
+        src: 'https://img.shields.io/badge/License-MIT-A31F34?style=for-the-badge',
+        alt: 'MIT License'
+      },
+      {
         href: "https://opensource.org/licenses/MPL-2.0",
-        src: 'https://img.shields.io/badge/License-MPL%202.0-brightgreen?style=for-the-badge',
+        src: 'https://img.shields.io/badge/License-MPL-E66000?style=for-the-badge',
         alt: 'Mozilla Public License'
       },
       {
-        href: "http://unlicense.org/",
-        src: 'https://img.shields.io/badge/license-Unlicense-blue?style=for-the-badge',
-        alt: 'The Unlicense License'
-      },
-      {
         href: "#",
-        src: 'https://img.shields.io/badge/-Other_License-orange?style=for-the-badge',
+        src: 'https://img.shields.io/badge/License-Other-lightgrey?style=for-the-badge',
         alt: 'Other License'
       }
 
     ];
-    return `
-    ## License
-
-    </br>
-    <p align="center">
-        <a href='${licenseBadges[license].href}'><img src='${licenseBadges[license].src}'  alt='${licenseBadges[license].alt}' /></a>
-    </p>
-
-    `
+    return `## License
+<p align="center">
+  <a href='${licenseBadges[license].href}'><img src='${licenseBadges[license].src}'  alt='${licenseBadges[license].alt}' /></a>
+</p>`
   }
 }
 
