@@ -37,12 +37,10 @@
 
   ## Credits
 
-  ### Creator
-
-    - :bust_in_silhouette: Creator: David Michael Mackey
-    - :email: Email: [davidmackey@hey.com](mailto:davidmackey@hey.com)
-    - :octocat: GitHub: [davidmichaelmackey](https://github.com/davidmichaelmackey/)
-    - :briefcase: Linkedin: [davidmichaelmackey](https://linkedin.com/in/davidmichaelmackey/)
+:bust_in_silhouette: Creator: David Michael Mackey
+:email: Email: [davidmackey@hey.com](mailto:davidmackey@hey.com)
+:octocat: GitHub: [davidmichaelmackey](https://github.com/davidmichaelmackey/)
+:briefcase: Linkedin: [davidmichaelmackey](https://linkedin.com/in/davidmichaelmackey/)
 
   ### Collaborators
 
