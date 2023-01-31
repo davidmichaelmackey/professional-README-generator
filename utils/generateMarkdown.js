@@ -15,7 +15,7 @@ function generateMarkdown(data) {
   <img src="https://img.shields.io/github/languages/code-size/${data.github}/${data.repository}?color=45dc81&style=for-the-badge" alt="Code Size" />
   <img src="https://img.shields.io/github/repo-size/${data.github}/${data.repository}?color=7ad0ed&style=for-the-badge" alt="Repo Size" />
   <img src="https://img.shields.io/github/last-commit/${data.github}/${data.repository}?color=34A853&style=for-the-badge" alt="Last Commit" />
-  <img src="https://img.shields.io/github/issues/${data.github}/${data.repository}?colors=ffc0cb&style=for-the-badge" alt="Issues" />
+  <img src="https://img.shields.io/github/issues/${data.github}/${data.repository}?colors=FE5000&style=for-the-badge" alt="Issues" />
   <img src="https://img.shields.io/github/followers/${data.github}?style=for-the-badge" alt="Followers" />
 </p>
 
