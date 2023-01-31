@@ -102,4 +102,30 @@ function installation(installation) {
     return ``;
 }
 
+function builtWith(tools) {
+  if (tools) {
+    tools = tools.split(",");
+    let res = `
+  ### Built With
+  </br>
+  <p align="center">
+  `;
+
+    tools.forEach(tool => {
+      res += `<img src="https://img.shields.io/badge/-${tool}-orange?style=for-the-badge"  alt="${tool}" />
+      `;
+    });
+
+    res += `
+  </p>
+  `;
+
+    return res;
+
+  }
+  else {
+    return ``;
+  }
+}
+
 module.exports = generateMarkdown;
