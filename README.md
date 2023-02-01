@@ -1,6 +1,8 @@
 
 # { Professional README Generator }
 
+## Badges
+
 <p align="center">
 <img src="https://img.shields.io/github/package-json/dependency-version/davidmichaelmackey/professional-readme-generator/inquirer?color=CC3534&style=for-the-badge&logo=npm" alt="Inquirer Version" />
 <img src="https://img.shields.io/github/languages/count/davidmichaelmackey/professional-readme-generator?color=FF9AA2&style=for-the-badge" alt="Languages" />
