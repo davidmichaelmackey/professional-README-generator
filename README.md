@@ -1,5 +1,5 @@
 
-# { Professional README generator }
+# { Professional README Generator }
 
 ## Badges
 
