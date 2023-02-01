@@ -9,7 +9,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 // !==============================|
 // ! signifies program is running |
 // !==============================|
-console.log('');
+console.log('Professional README Generator started...');
 
 // !===================================|
 // ! array of questions for user input |
