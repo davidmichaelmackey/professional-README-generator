@@ -23,6 +23,16 @@ const questions = [
   },
   {
     type: "input",
+    name: "email",
+    message: "Email Address:"
+  },
+  {
+    type: "input",
+    name: "linkedin",
+    message: "Linkedin Username:"
+  },
+  {
+    type: "input",
     name: "github",
     message: "GitHub Username:"
   },
@@ -135,16 +145,6 @@ const questions = [
     name: "tests",
     message: "Tests (if any):"
   },
-  {
-    type: "input",
-    name: "email",
-    message: "Email Address:"
-  },
-  {
-    type: "input",
-    name: "linkedin",
-    message: "Linkedin Username:"
-  }
 ];
 
 // !===============================|

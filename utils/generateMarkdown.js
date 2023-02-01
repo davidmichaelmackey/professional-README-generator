@@ -40,7 +40,7 @@ ${screenshot(data.screenshot)}
 
 ## Credits
 
-:bust_in_silhouette: ${data.creator}<br>
+:bust_in_silhouette: [${data.creator}](https://www.notion.so/davidmackey/David-Mackey-a59ce61a996840d6a933e3b135673467)<br>
 :email: [Email](mailto:${data.email})<br>
 :octocat: [GitHub](https://github.com/${data.github}/)<br>
 :briefcase: [Linkedin](https://linkedin.com/in/${data.linkedin}/)<br>
