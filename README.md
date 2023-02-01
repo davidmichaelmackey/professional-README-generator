@@ -4,6 +4,7 @@
 ## Badges
 
 <p align="center">
+  <img src="https://img.shields.io/github/followers/davidmichaelmackey?style=for-the-badge" alt="Followers" />
   <img src="https://img.shields.io/github/package-json/dependency-version/davidmichaelmackey/professional-readme-generator/inquirer?color=CC3534&style=for-the-badge&logo=npm" alt="Inquirer Version" />
   <img src="https://img.shields.io/github/languages/count/davidmichaelmackey/professional-readme-generator?color=FF9AA2&style=for-the-badge" alt="Languages" />
   <img src="https://img.shields.io/github/languages/top/davidmichaelmackey/professional-readme-generator?color=FFB7B2&style=for-the-badge" alt="Top Language" />
@@ -11,7 +12,6 @@
   <img src="https://img.shields.io/github/repo-size/davidmichaelmackey/professional-readme-generator?color=E2F0CB&style=for-the-badge" alt="Repo Size" />
   <img src="https://img.shields.io/github/last-commit/davidmichaelmackey/professional-readme-generator?color=B5EAD7&style=for-the-badge" alt="Last Commit" />
   <img src="https://img.shields.io/github/issues/davidmichaelmackey/professional-readme-generator?color=C7CEEA&style=for-the-badge" alt="Issues" />
-  <img src="https://img.shields.io/github/followers/davidmichaelmackey?style=for-the-badge" alt="Followers" />
 </p>
 
 ## Description
@@ -51,6 +51,8 @@ Follow these commands to run the command line application:
 ### Collaborators
 
     Bob Saget
+    Michael Jackson
+    James Bond
 
 ### Resources
 
@@ -62,7 +64,7 @@ Follow these commands to run the command line application:
       <img src="https://img.shields.io/badge/-NodeJS-grey?style=for-the-badge"  alt="NodeJS" />
       <img src="https://img.shields.io/badge/-NPM-grey?style=for-the-badge"  alt="NPM" />
       <img src="https://img.shields.io/badge/-Inquirer-grey?style=for-the-badge"  alt="Inquirer" />
-      <img src="https://img.shields.io/badge/-CLI-grey?style=for-the-badge"  alt="CLI" />
+      <img src="https://img.shields.io/badge/-Terminal-grey?style=for-the-badge"  alt="Terminal" />
       
 </p>
 
