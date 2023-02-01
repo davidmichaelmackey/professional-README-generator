@@ -53,9 +53,7 @@ Follow these commands to run the command line application:
 
 ### Collaborators
 
-    Bob Saget
-    Michael Jackson
-    James Bond
+    Bob SagetMichael JacksonJames Bond
 
 ### Resources
 

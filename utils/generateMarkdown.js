@@ -119,8 +119,7 @@ function collaborators(collaborators) {
     commands.forEach((c, index) => commands[index] = commands[index].trim());
     return `### Collaborators
 
-    ${commands.join(`
-    `)}`;
+    ${commands.join('')}`;
   }
   else
     return ``;
