@@ -30,7 +30,11 @@ A command-line application that uses input from a user to dynamically generate a
 ## Installation
 Follow these commands to run the command line application:  
 
-    npm i,---,npm start,or,node index.js
+    npm i
+    ---
+    npm start
+    or
+    node index.js
 
 ## Usage
 
