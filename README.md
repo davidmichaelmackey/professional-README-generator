@@ -89,3 +89,14 @@ Have Questions?
 <br>
 Feel free send me an [email](mailto:davidmackey@hey.com) or reach out to me on [Linkedin](https://linkedin.com/in/davidmichaelmackey/).
 
+## Repository
+
+[Repository Link](https://github.com/davidmichaelmackey/professional-readme-generator)
+
+## Deployment
+
+[Deployment Page](https://davidmichaelmackey.github.io/professional-readme-generator/)
+
+## Video
+
+[Loom Video](https://loom.com/share/bd7a19ddfb6941f6acbec4323c97f4b5)
