@@ -45,7 +45,7 @@ Follow these commands to run the command line application:
 
 ## Credits
 
-:bust_in_silhouette: David Mackey<br>
+:bust_in_silhouette: [David Michael Mackey](https://www.notion.so/davidmackey/David-Mackey-a59ce61a996840d6a933e3b135673467)<br>
 :email: [Email](mailto:davidmackey@hey.com)<br>
 :octocat: [GitHub](https://github.com/davidmichaelmackey/)<br>
 :briefcase: [Linkedin](https://linkedin.com/in/davidmichaelmackey/)<br>
@@ -65,7 +65,6 @@ Follow these commands to run the command line application:
 <p align="center"><img src="https://img.shields.io/badge/-JS-grey?style=for-the-badge"  alt="JS" />
       <img src="https://img.shields.io/badge/-NodeJS-grey?style=for-the-badge"  alt="NodeJS" />
       <img src="https://img.shields.io/badge/-NPM-grey?style=for-the-badge"  alt="NPM" />
-      <img src="https://img.shields.io/badge/-Inquirer-grey?style=for-the-badge"  alt="Inquirer" />
       <img src="https://img.shields.io/badge/-Terminal-grey?style=for-the-badge"  alt="Terminal" />
       
 </p>
