@@ -117,9 +117,9 @@ function collaborators(collaborators) {
   if (collaborators) {
     var commands = collaborators.split(",");
     commands.forEach((c, index) => commands[index] = commands[index].trim());
-    return `### Collaborators
+    return `"### Collaborators
 
-    ${commands.join('')}`;
+    ${commands.join(``)}`;
   }
   else
     return ``;
