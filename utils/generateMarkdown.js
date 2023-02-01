@@ -19,6 +19,8 @@ function generateMarkdown(data) {
 <img src="https://img.shields.io/github/followers/${data.github}?style=for-the-badge" alt="Followers" />
 </p>
 
+${license(data.license)}
+
 ## Description
 ${data.description}
 
@@ -52,8 +54,6 @@ ${resources(data.resources)}
 ## Toolset
 
 ${toolset(data.toolset)}
-
-${license(data.license)}
 
 ## Contribute
 
