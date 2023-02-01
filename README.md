@@ -53,7 +53,13 @@ Follow these commands to run the command line application:
 
 
 
+### Resources
 
+    https://shields.io/
+    https://nodejs.org/en/docs/
+    https://docs.npmjs.com/
+    https://www.npmjs.com/package/inquirer/
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 ## Toolset
 
