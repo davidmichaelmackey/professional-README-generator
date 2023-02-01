@@ -55,9 +55,7 @@ Follow these commands to run the command line application:
 :octocat: [GitHub](https://github.com/davidmichaelmackey/)<br>
 :briefcase: [Linkedin](https://linkedin.com/in/davidmichaelmackey/)<br>
 
-"### Collaborators
 
-    Bob SagetMichael JacksonJames Bond
 
 ### Resources
 
