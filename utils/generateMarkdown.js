@@ -41,8 +41,8 @@ ${screenshot(data.screenshot)}
 ## Credits
 
 :bust_in_silhouette: ${data.creator}<br>
-:email: [Email}](mailto:${data.email})<br>
-:octocat: [GitHub}](https://github.com/${data.github}/)<br>
+:email: [Email](mailto:${data.email})<br>
+:octocat: [GitHub](https://github.com/${data.github}/)<br>
 :briefcase: [Linkedin](https://linkedin.com/in/${data.linkedin}/)<br>
 
 ${collaborators(data.collaborators)}

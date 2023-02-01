@@ -32,6 +32,8 @@ Follow these commands to run the command line application:
 
     npm i
     npm start
+    or
+    node index.js
 
 ## Usage
 
@@ -44,8 +46,8 @@ Follow these commands to run the command line application:
 ## Credits
 
 :bust_in_silhouette: David Mackey<br>
-:email: [Email}](mailto:davidmackey@hey.com)<br>
-:octocat: [GitHub}](https://github.com/davidmichaelmackey/)<br>
+:email: [Email](mailto:davidmackey@hey.com)<br>
+:octocat: [GitHub](https://github.com/davidmichaelmackey/)<br>
 :briefcase: [Linkedin](https://linkedin.com/in/davidmichaelmackey/)<br>
 
 ### Collaborators
