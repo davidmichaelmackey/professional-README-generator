@@ -30,11 +30,7 @@ A command-line application that uses input from a user to dynamically generate a
 ## Installation
 Follow these commands to run the command line application:  
 
-    npm i
-    ---
-    npm start
-    or
-    node index.js
+    npm i,---,npm start,or,node index.js
 
 ## Usage
 
@@ -51,13 +47,9 @@ Follow these commands to run the command line application:
 :octocat: [GitHub](https://github.com/davidmichaelmackey/)<br>
 :briefcase: [Linkedin](https://linkedin.com/in/davidmichaelmackey/)<br>
 
-### Collaborators
 
-    Bob SagetMichael JacksonJames Bond
 
-### Resources
 
-    https://shields.io/
 
 ## Toolset
 
