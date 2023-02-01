@@ -30,6 +30,9 @@ A Node.js command-line application that uses NPM package, Inquirer, to gather in
 - [Contribute](#contribute)
 - [Tests](#tests)
 - [Questions](#questions)
+- [Repository](#repository)
+- [Deployment](#deployment)
+- [Video](#video)
 
 ## Installation
 Follow these commands to run the command line application:  
