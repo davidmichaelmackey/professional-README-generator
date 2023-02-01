@@ -9,14 +9,14 @@ function generateMarkdown(data) {
 ## Badges
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/${data.github}?style=for-the-badge" alt="Followers" />
-  <img src="https://img.shields.io/github/package-json/dependency-version/${data.github}/${data.repository}/inquirer?color=CC3534&style=for-the-badge&logo=npm" alt="Inquirer Version" />
-  <img src="https://img.shields.io/github/languages/count/${data.github}/${data.repository}?color=FF9AA2&style=for-the-badge" alt="Languages" />
-  <img src="https://img.shields.io/github/languages/top/${data.github}/${data.repository}?color=FFB7B2&style=for-the-badge" alt="Top Language" />
-  <img src="https://img.shields.io/github/languages/code-size/${data.github}/${data.repository}?color=FFDAC1&style=for-the-badge" alt="Code Size" />
-  <img src="https://img.shields.io/github/repo-size/${data.github}/${data.repository}?color=E2F0CB&style=for-the-badge" alt="Repo Size" />
-  <img src="https://img.shields.io/github/last-commit/${data.github}/${data.repository}?color=B5EAD7&style=for-the-badge" alt="Last Commit" />
-  <img src="https://img.shields.io/github/issues/${data.github}/${data.repository}?color=C7CEEA&style=for-the-badge" alt="Issues" />
+<img src="https://img.shields.io/github/package-json/dependency-version/${data.github}/${data.repository}/inquirer?color=CC3534&style=for-the-badge&logo=npm" alt="Inquirer Version" />
+<img src="https://img.shields.io/github/languages/count/${data.github}/${data.repository}?color=FF9AA2&style=for-the-badge" alt="Languages" />
+<img src="https://img.shields.io/github/languages/top/${data.github}/${data.repository}?color=FFB7B2&style=for-the-badge" alt="Top Language" />
+<img src="https://img.shields.io/github/languages/code-size/${data.github}/${data.repository}?color=FFDAC1&style=for-the-badge" alt="Code Size" />
+<img src="https://img.shields.io/github/repo-size/${data.github}/${data.repository}?color=E2F0CB&style=for-the-badge" alt="Repo Size" />
+<img src="https://img.shields.io/github/last-commit/${data.github}/${data.repository}?color=B5EAD7&style=for-the-badge" alt="Last Commit" />
+<img src="https://img.shields.io/github/issues/${data.github}/${data.repository}?color=C7CEEA&style=for-the-badge" alt="Issues" />
+<img src="https://img.shields.io/github/followers/${data.github}?style=for-the-badge" alt="Followers" />
 </p>
 
 ## Description
@@ -40,10 +40,10 @@ ${screenshot(data.screenshot)}
 
 ## Credits
 
-:bust_in_silhouette: Creator: ${data.creator}<br>
-:email: Email: [${data.email}](mailto:${data.email})<br>
-:octocat: GitHub: [${data.github}](https://github.com/${data.github}/)<br>
-:briefcase: Linkedin: [${data.linkedin}](https://linkedin.com/in/${data.linkedin}/)<br>
+:bust_in_silhouette: ${data.creator}<br>
+:email: [Email}](mailto:${data.email})<br>
+:octocat: [GitHub}](https://github.com/${data.github}/)<br>
+:briefcase: [Linkedin](https://linkedin.com/in/${data.linkedin}/)<br>
 
 ${collaborators(data.collaborators)}
 
