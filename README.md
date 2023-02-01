@@ -100,3 +100,4 @@ Feel free send me an [email](mailto:davidmackey@hey.com) or reach out to me on [
 ## Video
 
 [Loom Video](https://loom.com/share/bd7a19ddfb6941f6acbec4323c97f4b5)
+<div style="position: relative; padding-bottom: NaN%; height: 0;"><iframe src="https://www.loom.com/embed/bd7a19ddfb6941f6acbec4323c97f4b5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
