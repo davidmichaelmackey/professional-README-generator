@@ -15,13 +15,11 @@
 </p>
 
 ## License
-
 <p align = "center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-A31F34?style=for-the-badge" alt="MIT License"/></a>
 </p>
 
 ## Description
-
 A Node.js command-line application that uses NPM package, Inquirer, to gather input from a user to dynamically generate a quality README markdown file for a GitHub project.
 
 ## Table of Contents
@@ -34,7 +32,6 @@ A Node.js command-line application that uses NPM package, Inquirer, to gather in
 - [Questions](#questions)
 
 ## Installation
-
 Follow these commands to run the command line application:  
 
     npm i
@@ -45,7 +42,11 @@ Follow these commands to run the command line application:
 
 ## Usage
 
+
+
   ![Usage](assets/images/screenshot.png)
+
+    
 
 ## Credits
 
@@ -53,6 +54,8 @@ Follow these commands to run the command line application:
 :email: [Email](mailto:davidmackey@hey.com)<br>
 :octocat: [GitHub](https://github.com/davidmichaelmackey/)<br>
 :briefcase: [Linkedin](https://linkedin.com/in/davidmichaelmackey/)<br>
+
+
 
 ### Resources
 
@@ -69,6 +72,7 @@ Follow these commands to run the command line application:
       <img src="https://img.shields.io/badge/-NPM-grey?style=for-the-badge"  alt="NPM" />
       <img src="https://img.shields.io/badge/-Inquirer-grey?style=for-the-badge"  alt="Inquirer" />
       <img src="https://img.shields.io/badge/-Terminal-grey?style=for-the-badge"  alt="Terminal" />
+      
 </p>
 
 ## Contribute
