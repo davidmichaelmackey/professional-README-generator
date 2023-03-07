@@ -9,29 +9,27 @@ function generateMarkdown(data) {
 ## Badges
 
 <p align="center">
-<img src="https://img.shields.io/github/package-json/dependency-version/${data.github}/${data.repository}/inquirer?color=CC3534&style=for-the-badge&logo=npm" alt="Inquirer Version" />
 <img src="https://img.shields.io/github/languages/count/${data.github}/${data.repository}?color=FF9AA2&style=for-the-badge" alt="Languages" />
 <img src="https://img.shields.io/github/languages/top/${data.github}/${data.repository}?color=FFB7B2&style=for-the-badge" alt="Top Language" />
 <img src="https://img.shields.io/github/languages/code-size/${data.github}/${data.repository}?color=FFDAC1&style=for-the-badge" alt="Code Size" />
 <img src="https://img.shields.io/github/repo-size/${data.github}/${data.repository}?color=E2F0CB&style=for-the-badge" alt="Repo Size" />
 <img src="https://img.shields.io/github/last-commit/${data.github}/${data.repository}?color=B5EAD7&style=for-the-badge" alt="Last Commit" />
-<img src="https://img.shields.io/github/issues/${data.github}/${data.repository}?color=C7CEEA&style=for-the-badge" alt="Issues" />
 <img src="https://img.shields.io/github/followers/${data.github}?style=for-the-badge" alt="Followers" />
 </p>
 
-${license(data.license)}
-
-## Description
-${data.description}
-
 ## Table of Contents
 
+- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
+- [License](#license)
 - [Contribute](#contribute)
 - [Tests](#tests)
 - [Questions](#questions)
+
+## Description
+${data.description}
 
 ${installation(data.installation)}
 
@@ -41,7 +39,7 @@ ${screenshot(data.screenshot)}
 
 ## Credits
 
-:bust_in_silhouette: [${data.creator}](https://www.notion.so/davidmackey/David-Mackey-a59ce61a996840d6a933e3b135673467)<br>
+:bust_in_silhouette: [${data.creator}](https://www.notion.so/davidmichaelmackey/David-Mackey-a59ce61a996840d6a933e3b135673467?pvs=4)<br>
 :email: [Email](mailto:${data.email})<br>
 :octocat: [GitHub](https://github.com/${data.github}/)<br>
 :briefcase: [Linkedin](https://linkedin.com/in/${data.linkedin}/)<br>
@@ -53,6 +51,8 @@ ${resources(data.resources)}
 ## Toolset
 
 ${toolset(data.toolset)}
+
+${license(data.license)}
 
 ## Contribute
 
@@ -68,7 +68,7 @@ Have Questions?
 <br>
 Feel free send me an [email](mailto:${data.email}) or reach out to me on [Linkedin](https://linkedin.com/in/${data.linkedin}/).
 
-`
+`;
   return readme;
 }
 
@@ -82,7 +82,7 @@ function installation(installation) {
     var commands = installation.split(", ");
     commands.forEach((c, index) => commands[index] = commands[index].trim());
     return `## Installation
-Follow these commands to run the command line application:  
+Follow these commands to run the command-line application:  
 
     ${commands.join(`
     `)}`;
