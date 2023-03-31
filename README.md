@@ -61,8 +61,8 @@ Follow these commands to run the command-line application:
 ## Toolset
 
 <p align="center">
-    <img src="https://img.shields.io/badge/-JavaScript-F6DD4A?style=for-the-badge&logo=javascript&logoColor=black"  alt="JS" />
-    <img src="https://img.shields.io/badge/-Node.js-7DBA58?style=for-the-badge&logo=node.js&logoColor=white"  alt="Node.js" />
+    <img src="https://img.shields.io/badge/-JavaScript-F6DD4A?style=for-the-badge&logo=javascript&logoColor=0C0E12&textColor=0C0E12"  alt="JS" />
+    <img src="https://img.shields.io/badge/-Node.js-7DBA58?style=for-the-badge&logo=node.js&logoColor=0C0E12&textColor=0C0E12"  alt="Node.js" />
     <img src="https://img.shields.io/badge/-NPM-BA261A?style=for-the-badge"  alt="NPM" />
     <img src="https://img.shields.io/badge/-Inquirer-2C67F6?style=for-the-badge"  alt="Inquirer" />
     <img src="https://img.shields.io/badge/-Terminal-1E3050?style=for-the-badge"  alt="Terminal" />
