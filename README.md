@@ -61,11 +61,11 @@ Follow these commands to run the command-line application:
 ## Toolset
 
 <p align="center">
-    <img src="https://img.shields.io/badge/-JavaScript-F6DD4A?style=for-the-badge&logo=javascript&logoColor=#0C0E12&labelColor=white"  alt="JS" />
-    <img src="https://img.shields.io/badge/-Node.js-7DBA58?style=for-the-badge&logo=node.js&logoColor=#0C0E12&labelColor=white"  alt="Node.js" />
-    <img src="https://img.shields.io/badge/-NPM-BA261A?style=for-the-badge&logo=npm&logoColor=#0C0E12&labelColor=white"  alt="NPM" />
-    <img src="https://img.shields.io/badge/-Inquirer-2C67F6?style=for-the-badge&logo=npm&logoColor=#0C0E12&labelColor=white"  alt="Inquirer" />
-    <img src="https://img.shields.io/badge/-Terminal-1E3050?style=for-the-badge&logo=iTerm2&logoColor=#0C0E12&labelColor=white"  alt="Terminal" />
+    <img src="https://img.shields.io/badge/-JavaScript-F6DD4A?style=for-the-badge&logo=javascript&logoColor=0C0E12"  alt="JS" />
+    <img src="https://img.shields.io/badge/-Node.js-7DBA58?style=for-the-badge&logo=node.js&logoColor=0C0E12"  alt="Node.js" />
+    <img src="https://img.shields.io/badge/-NPM-BA261A?style=for-the-badge&logo=npm&logoColor=0C0E12"  alt="NPM" />
+    <img src="https://img.shields.io/badge/-Inquirer-2C67F6?style=for-the-badge&logo=npm&logoColor=0C0E12"  alt="Inquirer" />
+    <img src="https://img.shields.io/badge/-Terminal-1E3050?style=for-the-badge&logo=iTerm2&logoColor=0C0E12"  alt="Terminal" />
       
 </p>
 
